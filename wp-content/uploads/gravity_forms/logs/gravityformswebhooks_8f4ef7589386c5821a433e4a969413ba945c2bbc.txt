@@ -1,0 +1,1209 @@
+2019-08-26 21:02:53.410082 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #33 for gravityformswebhooks. 
+2019-08-26 21:02:53.410779 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Adding feed (#1 - WH1) for entry #33 for gravityformswebhooks to the processing queue. 
+2019-08-26 21:02:53.854281 - DEBUG --> GF_Feed_Processor::task(): Starting to process feed (#1 - WH1) for entry #33 for gravityformswebhooks. Attempt number: 1 
+2019-08-26 21:02:53.854540 - DEBUG --> GF_Webhooks::process_feed(): Sending webhook request to http://stagegreenimg.wpengine.com/wp-json/data-forms/get.php; Array
+(
+    [body] => {"id":"33","form_id":"1","post_id":null,"date_created":"2019-08-26 21:02:53","date_updated":"2019-08-26 21:02:53","is_starred":"0","is_read":"0","ip":"::1","source_url":"https:\/\/gravity-forms:8890\/sample-page\/","user_agent":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/76.0.3809.100 Safari\/537.36","currency":"USD","payment_status":null,"payment_date":null,"payment_amount":null,"payment_method":null,"transaction_id":null,"is_fulfilled":null,"created_by":"1","transaction_type":null,"status":"active","1":"MRI without contrast","2":"Uninsured\/Self-Pay","11":"24342","21":"head","5.2":"I'm looking for a quote.","17":"Up to 30 miles","13.1":"I acknowledge that I have reviewed the <a href=\"http:\/\/greenimaging.net\/privacy-policy\/\" target=\"_blank\">Notice of Privacy Practices<\/a>","7.3":"denis","7.6":"test","29":"Male","9":"(635) 745-7457","23":"Phone","5.1":"","5.3":"","24.2":"","24.3":"","24.4":"","24.6":"","24.8":"","25":"","28.1":"","28.2":"","20":"","19.1":"","19.2":"","19.3":"","19.4":"","19.5":"","19.6":"","19.7":"","19.8":"","19.9":"","19.11":"","19.12":"","12":"","6":"","7.2":"","7.4":"","7.8":"","8":"","10":"","14":"","30":""}
+    [method] => POST
+    [headers] => Array
+        (
+            [Content-Type] => application/json
+        )
+
+    [sslverify] => 1
+)
+ 
+2019-08-26 21:02:54.237560 - DEBUG --> GF_Webhooks::process_feed(): Webhook successfully executed. code: 200; body: 
+array(0) {
+}
+<pre>array(0) {
+}
+</pre> 
+2019-08-26 21:02:54.237693 - DEBUG --> GF_Feed_Processor::task(): Marking entry #33 as fulfilled for gravityformswebhooks 
+2019-08-26 21:04:39.418752 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #34 for gravityformswebhooks. 
+2019-08-26 21:04:39.459110 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Adding feed (#1 - WH1) for entry #34 for gravityformswebhooks to the processing queue. 
+2019-08-26 21:04:39.852713 - DEBUG --> GF_Feed_Processor::task(): Starting to process feed (#1 - WH1) for entry #34 for gravityformswebhooks. Attempt number: 1 
+2019-08-26 21:04:39.853151 - DEBUG --> GF_Webhooks::process_feed(): Sending webhook request to http://stagegreenimg.wpengine.com/wp-json/data-forms/get.php?id=34&form_id=1&date_created=2019-08-26 21:04:39&date_updated=2019-08-26 21:04:39&is_starred=0&is_read=0&ip=::1&source_url=https://gravity-forms:8890/sample-page/&user_agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36&currency=USD&created_by=1&status=active&1=PET/CT Scan&2=Uninsured/Self-Pay&11=24342&21=head&5.2=I'm looking for a quote.&17=Up to 30 miles&13.1=I acknowledge that I have reviewed the <a href="http://greenimaging.net/privacy-policy/" target="_blank">Notice of Privacy Practices</a>&7.3=denis&7.6=test&29=Male&9=(635) 745-7457&23=Phone&5.1&5.3&24.2&24.3&24.4&24.6&24.8&25&28.1&28.2&20&19.1&19.2&19.3&19.4&19.5&19.6&19.7&19.8&19.9&19.11&19.12&12&6&7.2&7.4&7.8&8&10&14&30; Array
+(
+    [body] => 
+    [method] => GET
+    [headers] => Array
+        (
+        )
+
+    [sslverify] => 1
+)
+ 
+2019-08-26 21:04:40.017879 - DEBUG --> GF_Webhooks::process_feed(): Webhook successfully executed. code: 200; body: 
+array(55) {
+  ["id"]=>
+  string(2) "34"
+  ["form_id"]=>
+  string(1) "1"
+  ["date_created"]=>
+  string(19) "2019-08-26 21:04:39"
+  ["date_updated"]=>
+  string(19) "2019-08-26 21:04:39"
+  ["is_starred"]=>
+  string(1) "0"
+  ["is_read"]=>
+  string(1) "0"
+  ["ip"]=>
+  string(3) "::1"
+  ["source_url"]=>
+  string(39) "https://gravity-forms:8890/sample-page/"
+  ["user_agent"]=>
+  string(121) "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36"
+  ["currency"]=>
+  string(3) "USD"
+  ["created_by"]=>
+  string(1) "1"
+  ["status"]=>
+  string(6) "active"
+  [1]=>
+  string(11) "PET/CT Scan"
+  [2]=>
+  string(18) "Uninsured/Self-Pay"
+  [11]=>
+  string(5) "24342"
+  [21]=>
+  string(4) "head"
+  ["5_2"]=>
+  string(24) "I'm looking for a quote."
+  [17]=>
+  string(14) "Up to 30 miles"
+  ["13_1"]=>
+  string(136) "I acknowledge that I have reviewed the <a href="http://greenimaging.net/privacy-policy/" target="_blank">Notice of Privacy Practices</a>"
+  ["7_3"]=>
+  string(5) "denis"
+  ["7_6"]=>
+  string(4) "test"
+  [29]=>
+  string(4) "Male"
+  [9]=>
+  string(14) "(635) 745-7457"
+  [23]=>
+  string(5) "Phone"
+  ["5_1"]=>
+  string(0) ""
+  ["5_3"]=>
+  string(0) ""
+  ["24_2"]=>
+  string(0) ""
+  ["24_3"]=>
+  string(0) ""
+  ["24_4"]=>
+  string(0) ""
+  ["24_6"]=>
+  string(0) ""
+  ["24_8"]=>
+  string(0) ""
+  [25]=>
+  string(0) ""
+  ["28_1"]=>
+  string(0) ""
+  ["28_2"]=>
+  string(0) ""
+  [20]=>
+  string(0) ""
+  ["19_1"]=>
+  string(0) ""
+  ["19_2"]=>
+  string(0) ""
+  ["19_3"]=>
+  string(0) ""
+  ["19_4"]=>
+  string(0) ""
+  ["19_5"]=>
+  string(0) ""
+  ["19_6"]=>
+  string(0) ""
+  ["19_7"]=>
+  string(0) ""
+  ["19_8"]=>
+  string(0) ""
+  ["19_9"]=>
+  string(0) ""
+  ["19_11"]=>
+  string(0) ""
+  ["19_12"]=>
+  string(0) ""
+  [12]=>
+  string(0) ""
+  [6]=>
+  string(0) ""
+  ["7_2"]=>
+  string(0) ""
+  ["7_4"]=>
+  string(0) ""
+  ["7_8"]=>
+  string(0) ""
+  [8]=>
+  string(0) ""
+  [10]=>
+  string(0) ""
+  [14]=>
+  string(0) ""
+  [30]=>
+  string(0) ""
+}
+<pre>array(55) {
+  ["id"]=>
+  string(2) "34"
+  ["form_id"]=>
+  string(1) "1"
+  ["date_created"]=>
+  string(19) "2019-08-26 21:04:39"
+  ["date_updated"]=>
+  string(19) "2019-08-26 21:04:39"
+  ["is_starred"]=>
+  string(1) "0"
+  ["is_read"]=>
+  string(1) "0"
+  ["ip"]=>
+  string(3) "::1"
+  ["source_url"]=>
+  string(39) "https://gravity-forms:8890/sample-page/"
+  ["user_agent"]=>
+  string(121) "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36"
+  ["currency"]=>
+  string(3) "USD"
+  ["created_by"]=>
+  string(1) "1"
+  ["status"]=>
+  string(6) "active"
+  [1]=>
+  string(11) "PET/CT Scan"
+  [2]=>
+  string(18) "Uninsured/Self-Pay"
+  [11]=>
+  string(5) "24342"
+  [21]=>
+  string(4) "head"
+  ["5_2"]=>
+  string(24) "I'm looking for a quote."
+  [17]=>
+  string(14) "Up to 30 miles"
+  ["13_1"]=>
+  string(136) "I acknowledge that I have reviewed the <a href="http://greenimaging.net/privacy-policy/" target="_blank">Notice of Privacy Practices</a>"
+  ["7_3"]=>
+  string(5) "denis"
+  ["7_6"]=>
+  string(4) "test"
+  [29]=>
+  string(4) "Male"
+  [9]=>
+  string(14) "(635) 745-7457"
+  [23]=>
+  string(5) "Phone"
+  ["5_1"]=>
+  string(0) ""
+  ["5_3"]=>
+  string(0) ""
+  ["24_2"]=>
+  string(0) ""
+  ["24_3"]=>
+  string(0) ""
+  ["24_4"]=>
+  string(0) ""
+  ["24_6"]=>
+  string(0) ""
+  ["24_8"]=>
+  string(0) ""
+  [25]=>
+  string(0) ""
+  ["28_1"]=>
+  string(0) ""
+  ["28_2"]=>
+  string(0) ""
+  [20]=>
+  string(0) ""
+  ["19_1"]=>
+  string(0) ""
+  ["19_2"]=>
+  string(0) ""
+  ["19_3"]=>
+  string(0) ""
+  ["19_4"]=>
+  string(0) ""
+  ["19_5"]=>
+  string(0) ""
+  ["19_6"]=>
+  string(0) ""
+  ["19_7"]=>
+  string(0) ""
+  ["19_8"]=>
+  string(0) ""
+  ["19_9"]=>
+  string(0) ""
+  ["19_11"]=>
+  string(0) ""
+  ["19_12"]=>
+  string(0) ""
+  [12]=>
+  string(0) ""
+  [6]=>
+  string(0) ""
+  ["7_2"]=>
+  string(0) ""
+  ["7_4"]=>
+  string(0) ""
+  ["7_8"]=>
+  string(0) ""
+  [8]=>
+  string(0) ""
+  [10]=>
+  string(0) ""
+  [14]=>
+  string(0) ""
+  [30]=>
+  string(0) ""
+}
+</pre> 
+2019-08-26 21:04:40.018034 - DEBUG --> GF_Feed_Processor::task(): Marking entry #34 as fulfilled for gravityformswebhooks 
+2019-08-26 21:07:07.523313 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #35 for gravityformswebhooks. 
+2019-08-26 21:07:07.565124 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Adding feed (#1 - WH1) for entry #35 for gravityformswebhooks to the processing queue. 
+2019-08-26 21:07:08.026222 - DEBUG --> GF_Feed_Processor::task(): Starting to process feed (#1 - WH1) for entry #35 for gravityformswebhooks. Attempt number: 1 
+2019-08-26 21:07:08.026540 - DEBUG --> GF_Webhooks::process_feed(): Sending webhook request to http://stagegreenimg.wpengine.com/wp-json/data-forms/get.php?id=35&form_id=1&date_created=2019-08-26 21:07:07&date_updated=2019-08-26 21:07:07&is_starred=0&is_read=0&ip=::1&source_url=https://gravity-forms:8890/sample-page/&user_agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36&currency=USD&created_by=1&status=active&1=MRI without contrast&2=Uninsured/Self-Pay&11=24342&21=head&5.2=I'm looking for a quote.&17=Choose one&13.1=I acknowledge that I have reviewed the <a href="http://greenimaging.net/privacy-policy/" target="_blank">Notice of Privacy Practices</a>&7.3=denis&7.6=test&29=Male&9=(635) 745-7457&23=Phone&5.1&5.3&24.2&24.3&24.4&24.6&24.8&25&28.1&28.2&20&19.1&19.2&19.3&19.4&19.5&19.6&19.7&19.8&19.9&19.11&19.12&12&6&7.2&7.4&7.8&8&10&14&30; Array
+(
+    [body] => 
+    [method] => GET
+    [headers] => Array
+        (
+        )
+
+    [sslverify] => 1
+)
+ 
+2019-08-26 21:07:08.223689 - DEBUG --> GF_Webhooks::process_feed(): Webhook successfully executed. code: 200; body: 
+array(55) {
+  ["id"]=>
+  string(2) "35"
+  ["form_id"]=>
+  string(1) "1"
+  ["date_created"]=>
+  string(19) "2019-08-26 21:07:07"
+  ["date_updated"]=>
+  string(19) "2019-08-26 21:07:07"
+  ["is_starred"]=>
+  string(1) "0"
+  ["is_read"]=>
+  string(1) "0"
+  ["ip"]=>
+  string(3) "::1"
+  ["source_url"]=>
+  string(39) "https://gravity-forms:8890/sample-page/"
+  ["user_agent"]=>
+  string(121) "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36"
+  ["currency"]=>
+  string(3) "USD"
+  ["created_by"]=>
+  string(1) "1"
+  ["status"]=>
+  string(6) "active"
+  [1]=>
+  string(20) "MRI without contrast"
+  [2]=>
+  string(18) "Uninsured/Self-Pay"
+  [11]=>
+  string(5) "24342"
+  [21]=>
+  string(4) "head"
+  ["5_2"]=>
+  string(24) "I'm looking for a quote."
+  [17]=>
+  string(10) "Choose one"
+  ["13_1"]=>
+  string(136) "I acknowledge that I have reviewed the <a href="http://greenimaging.net/privacy-policy/" target="_blank">Notice of Privacy Practices</a>"
+  ["7_3"]=>
+  string(5) "denis"
+  ["7_6"]=>
+  string(4) "test"
+  [29]=>
+  string(4) "Male"
+  [9]=>
+  string(14) "(635) 745-7457"
+  [23]=>
+  string(5) "Phone"
+  ["5_1"]=>
+  string(0) ""
+  ["5_3"]=>
+  string(0) ""
+  ["24_2"]=>
+  string(0) ""
+  ["24_3"]=>
+  string(0) ""
+  ["24_4"]=>
+  string(0) ""
+  ["24_6"]=>
+  string(0) ""
+  ["24_8"]=>
+  string(0) ""
+  [25]=>
+  string(0) ""
+  ["28_1"]=>
+  string(0) ""
+  ["28_2"]=>
+  string(0) ""
+  [20]=>
+  string(0) ""
+  ["19_1"]=>
+  string(0) ""
+  ["19_2"]=>
+  string(0) ""
+  ["19_3"]=>
+  string(0) ""
+  ["19_4"]=>
+  string(0) ""
+  ["19_5"]=>
+  string(0) ""
+  ["19_6"]=>
+  string(0) ""
+  ["19_7"]=>
+  string(0) ""
+  ["19_8"]=>
+  string(0) ""
+  ["19_9"]=>
+  string(0) ""
+  ["19_11"]=>
+  string(0) ""
+  ["19_12"]=>
+  string(0) ""
+  [12]=>
+  string(0) ""
+  [6]=>
+  string(0) ""
+  ["7_2"]=>
+  string(0) ""
+  ["7_4"]=>
+  string(0) ""
+  ["7_8"]=>
+  string(0) ""
+  [8]=>
+  string(0) ""
+  [10]=>
+  string(0) ""
+  [14]=>
+  string(0) ""
+  [30]=>
+  string(0) ""
+}
+<pre>array(55) {
+  ["id"]=>
+  string(2) "35"
+  ["form_id"]=>
+  string(1) "1"
+  ["date_created"]=>
+  string(19) "2019-08-26 21:07:07"
+  ["date_updated"]=>
+  string(19) "2019-08-26 21:07:07"
+  ["is_starred"]=>
+  string(1) "0"
+  ["is_read"]=>
+  string(1) "0"
+  ["ip"]=>
+  string(3) "::1"
+  ["source_url"]=>
+  string(39) "https://gravity-forms:8890/sample-page/"
+  ["user_agent"]=>
+  string(121) "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36"
+  ["currency"]=>
+  string(3) "USD"
+  ["created_by"]=>
+  string(1) "1"
+  ["status"]=>
+  string(6) "active"
+  [1]=>
+  string(20) "MRI without contrast"
+  [2]=>
+  string(18) "Uninsured/Self-Pay"
+  [11]=>
+  string(5) "24342"
+  [21]=>
+  string(4) "head"
+  ["5_2"]=>
+  string(24) "I'm looking for a quote."
+  [17]=>
+  string(10) "Choose one"
+  ["13_1"]=>
+  string(136) "I acknowledge that I have reviewed the <a href="http://greenimaging.net/privacy-policy/" target="_blank">Notice of Privacy Practices</a>"
+  ["7_3"]=>
+  string(5) "denis"
+  ["7_6"]=>
+  string(4) "test"
+  [29]=>
+  string(4) "Male"
+  [9]=>
+  string(14) "(635) 745-7457"
+  [23]=>
+  string(5) "Phone"
+  ["5_1"]=>
+  string(0) ""
+  ["5_3"]=>
+  string(0) ""
+  ["24_2"]=>
+  string(0) ""
+  ["24_3"]=>
+  string(0) ""
+  ["24_4"]=>
+  string(0) ""
+  ["24_6"]=>
+  string(0) ""
+  ["24_8"]=>
+  string(0) ""
+  [25]=>
+  string(0) ""
+  ["28_1"]=>
+  string(0) ""
+  ["28_2"]=>
+  string(0) ""
+  [20]=>
+  string(0) ""
+  ["19_1"]=>
+  string(0) ""
+  ["19_2"]=>
+  string(0) ""
+  ["19_3"]=>
+  string(0) ""
+  ["19_4"]=>
+  string(0) ""
+  ["19_5"]=>
+  string(0) ""
+  ["19_6"]=>
+  string(0) ""
+  ["19_7"]=>
+  string(0) ""
+  ["19_8"]=>
+  string(0) ""
+  ["19_9"]=>
+  string(0) ""
+  ["19_11"]=>
+  string(0) ""
+  ["19_12"]=>
+  string(0) ""
+  [12]=>
+  string(0) ""
+  [6]=>
+  string(0) ""
+  ["7_2"]=>
+  string(0) ""
+  ["7_4"]=>
+  string(0) ""
+  ["7_8"]=>
+  string(0) ""
+  [8]=>
+  string(0) ""
+  [10]=>
+  string(0) ""
+  [14]=>
+  string(0) ""
+  [30]=>
+  string(0) ""
+}
+</pre> 
+2019-08-26 21:07:08.223841 - DEBUG --> GF_Feed_Processor::task(): Marking entry #35 as fulfilled for gravityformswebhooks 
+2019-08-26 21:09:02.793200 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #36 for gravityformswebhooks. 
+2019-08-26 21:09:02.834526 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Adding feed (#1 - WH1) for entry #36 for gravityformswebhooks to the processing queue. 
+2019-08-26 21:09:03.378184 - DEBUG --> GF_Feed_Processor::task(): Starting to process feed (#1 - WH1) for entry #36 for gravityformswebhooks. Attempt number: 1 
+2019-08-26 21:09:03.378417 - DEBUG --> GF_Webhooks::process_feed(): Sending webhook request to http://stagegreenimg.wpengine.com/wp-json/data-forms/get.php; Array
+(
+    [body] => Array
+        (
+            [id] => 36
+            [form_id] => 1
+            [post_id] => 
+            [date_created] => 2019-08-26 21:09:02
+            [date_updated] => 2019-08-26 21:09:02
+            [is_starred] => 0
+            [is_read] => 0
+            [ip] => ::1
+            [source_url] => https://gravity-forms:8890/sample-page/
+            [user_agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+            [currency] => USD
+            [payment_status] => 
+            [payment_date] => 
+            [payment_amount] => 
+            [payment_method] => 
+            [transaction_id] => 
+            [is_fulfilled] => 
+            [created_by] => 1
+            [transaction_type] => 
+            [status] => active
+            [1] => MRI with and without contrast
+            [2] => Uninsured/Self-Pay
+            [11] => 24342
+            [21] => head
+            [5.2] => I'm looking for a quote.
+            [17] => Up to 30 miles
+            [13.1] => I acknowledge that I have reviewed the <a href="http://greenimaging.net/privacy-policy/" target="_blank">Notice of Privacy Practices</a>
+            [7.3] => denis
+            [7.6] => test
+            [29] => Male
+            [9] => (635) 745-7457
+            [23] => Phone
+            [5.1] => 
+            [5.3] => 
+            [24.2] => 
+            [24.3] => 
+            [24.4] => 
+            [24.6] => 
+            [24.8] => 
+            [25] => 
+            [28.1] => 
+            [28.2] => 
+            [20] => 
+            [19.1] => 
+            [19.2] => 
+            [19.3] => 
+            [19.4] => 
+            [19.5] => 
+            [19.6] => 
+            [19.7] => 
+            [19.8] => 
+            [19.9] => 
+            [19.11] => 
+            [19.12] => 
+            [12] => 
+            [6] => 
+            [7.2] => 
+            [7.4] => 
+            [7.8] => 
+            [8] => 
+            [10] => 
+            [14] => 
+            [30] => 
+        )
+
+    [method] => POST
+    [headers] => Array
+        (
+        )
+
+    [sslverify] => 1
+)
+ 
+2019-08-26 21:09:03.627808 - DEBUG --> GF_Webhooks::process_feed(): Webhook successfully executed. code: 200; body: 
+array(0) {
+}
+<pre>array(0) {
+}
+</pre> 
+2019-08-26 21:09:03.627933 - DEBUG --> GF_Feed_Processor::task(): Marking entry #36 as fulfilled for gravityformswebhooks 
+2019-08-26 21:10:10.078423 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #37 for gravityformswebhooks. 
+2019-08-26 21:10:10.119333 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Adding feed (#1 - WH1) for entry #37 for gravityformswebhooks to the processing queue. 
+2019-08-26 21:10:10.743385 - DEBUG --> GF_Feed_Processor::task(): Starting to process feed (#1 - WH1) for entry #37 for gravityformswebhooks. Attempt number: 1 
+2019-08-26 21:10:10.743639 - DEBUG --> GF_Webhooks::process_feed(): Sending webhook request to http://stagegreenimg.wpengine.com/wp-json/data-forms/get.php; Array
+(
+    [body] => Array
+        (
+            [id] => 37
+            [form_id] => 1
+            [post_id] => 
+            [date_created] => 2019-08-26 21:10:10
+            [date_updated] => 2019-08-26 21:10:10
+            [is_starred] => 0
+            [is_read] => 0
+            [ip] => ::1
+            [source_url] => https://gravity-forms:8890/sample-page/
+            [user_agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+            [currency] => USD
+            [payment_status] => 
+            [payment_date] => 
+            [payment_amount] => 
+            [payment_method] => 
+            [transaction_id] => 
+            [is_fulfilled] => 
+            [created_by] => 1
+            [transaction_type] => 
+            [status] => active
+            [1] => X-Ray
+            [2] => Free market health plan
+            [11] => 24342
+            [21] => head
+            [5.2] => I'm looking for a quote.
+            [17] => Up to 10 miles
+            [13.1] => I acknowledge that I have reviewed the <a href="http://greenimaging.net/privacy-policy/" target="_blank">Notice of Privacy Practices</a>
+            [7.3] => denis
+            [7.6] => test
+            [29] => Male
+            [9] => (635) 745-7457
+            [23] => Phone
+            [30] => 2019-08-23
+            [5.1] => 
+            [5.3] => 
+            [24.2] => 
+            [24.3] => 
+            [24.4] => 
+            [24.6] => 
+            [24.8] => 
+            [25] => 
+            [28.1] => 
+            [28.2] => 
+            [20] => 
+            [19.1] => 
+            [19.2] => 
+            [19.3] => 
+            [19.4] => 
+            [19.5] => 
+            [19.6] => 
+            [19.7] => 
+            [19.8] => 
+            [19.9] => 
+            [19.11] => 
+            [19.12] => 
+            [12] => 
+            [6] => 
+            [7.2] => 
+            [7.4] => 
+            [7.8] => 
+            [8] => 
+            [10] => 
+            [14] => 
+        )
+
+    [method] => POST
+    [headers] => Array
+        (
+        )
+
+    [sslverify] => 1
+)
+ 
+2019-08-26 21:10:11.063426 - DEBUG --> GF_Webhooks::process_feed(): Webhook successfully executed. code: 200; body: 
+array(55) {
+  ["id"]=>
+  string(2) "37"
+  ["form_id"]=>
+  string(1) "1"
+  ["date_created"]=>
+  string(19) "2019-08-26 21:10:10"
+  ["date_updated"]=>
+  string(19) "2019-08-26 21:10:10"
+  ["is_starred"]=>
+  string(1) "0"
+  ["is_read"]=>
+  string(1) "0"
+  ["ip"]=>
+  string(3) "::1"
+  ["source_url"]=>
+  string(39) "https://gravity-forms:8890/sample-page/"
+  ["user_agent"]=>
+  string(121) "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36"
+  ["currency"]=>
+  string(3) "USD"
+  ["created_by"]=>
+  string(1) "1"
+  ["status"]=>
+  string(6) "active"
+  [1]=>
+  string(5) "X-Ray"
+  [2]=>
+  string(23) "Free market health plan"
+  [11]=>
+  string(5) "24342"
+  [21]=>
+  string(4) "head"
+  ["5_2"]=>
+  string(24) "I'm looking for a quote."
+  [17]=>
+  string(14) "Up to 10 miles"
+  ["13_1"]=>
+  string(136) "I acknowledge that I have reviewed the <a href="http://greenimaging.net/privacy-policy/" target="_blank">Notice of Privacy Practices</a>"
+  ["7_3"]=>
+  string(5) "denis"
+  ["7_6"]=>
+  string(4) "test"
+  [29]=>
+  string(4) "Male"
+  [9]=>
+  string(14) "(635) 745-7457"
+  [23]=>
+  string(5) "Phone"
+  [30]=>
+  string(10) "2019-08-23"
+  ["5_1"]=>
+  string(0) ""
+  ["5_3"]=>
+  string(0) ""
+  ["24_2"]=>
+  string(0) ""
+  ["24_3"]=>
+  string(0) ""
+  ["24_4"]=>
+  string(0) ""
+  ["24_6"]=>
+  string(0) ""
+  ["24_8"]=>
+  string(0) ""
+  [25]=>
+  string(0) ""
+  ["28_1"]=>
+  string(0) ""
+  ["28_2"]=>
+  string(0) ""
+  [20]=>
+  string(0) ""
+  ["19_1"]=>
+  string(0) ""
+  ["19_2"]=>
+  string(0) ""
+  ["19_3"]=>
+  string(0) ""
+  ["19_4"]=>
+  string(0) ""
+  ["19_5"]=>
+  string(0) ""
+  ["19_6"]=>
+  string(0) ""
+  ["19_7"]=>
+  string(0) ""
+  ["19_8"]=>
+  string(0) ""
+  ["19_9"]=>
+  string(0) ""
+  ["19_11"]=>
+  string(0) ""
+  ["19_12"]=>
+  string(0) ""
+  [12]=>
+  string(0) ""
+  [6]=>
+  string(0) ""
+  ["7_2"]=>
+  string(0) ""
+  ["7_4"]=>
+  string(0) ""
+  ["7_8"]=>
+  string(0) ""
+  [8]=>
+  string(0) ""
+  [10]=>
+  string(0) ""
+  [14]=>
+  string(0) ""
+}
+<pre>array(55) {
+  ["id"]=>
+  string(2) "37"
+  ["form_id"]=>
+  string(1) "1"
+  ["date_created"]=>
+  string(19) "2019-08-26 21:10:10"
+  ["date_updated"]=>
+  string(19) "2019-08-26 21:10:10"
+  ["is_starred"]=>
+  string(1) "0"
+  ["is_read"]=>
+  string(1) "0"
+  ["ip"]=>
+  string(3) "::1"
+  ["source_url"]=>
+  string(39) "https://gravity-forms:8890/sample-page/"
+  ["user_agent"]=>
+  string(121) "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36"
+  ["currency"]=>
+  string(3) "USD"
+  ["created_by"]=>
+  string(1) "1"
+  ["status"]=>
+  string(6) "active"
+  [1]=>
+  string(5) "X-Ray"
+  [2]=>
+  string(23) "Free market health plan"
+  [11]=>
+  string(5) "24342"
+  [21]=>
+  string(4) "head"
+  ["5_2"]=>
+  string(24) "I'm looking for a quote."
+  [17]=>
+  string(14) "Up to 10 miles"
+  ["13_1"]=>
+  string(136) "I acknowledge that I have reviewed the <a href="http://greenimaging.net/privacy-policy/" target="_blank">Notice of Privacy Practices</a>"
+  ["7_3"]=>
+  string(5) "denis"
+  ["7_6"]=>
+  string(4) "test"
+  [29]=>
+  string(4) "Male"
+  [9]=>
+  string(14) "(635) 745-7457"
+  [23]=>
+  string(5) "Phone"
+  [30]=>
+  string(10) "2019-08-23"
+  ["5_1"]=>
+  string(0) ""
+  ["5_3"]=>
+  string(0) ""
+  ["24_2"]=>
+  string(0) ""
+  ["24_3"]=>
+  string(0) ""
+  ["24_4"]=>
+  string(0) ""
+  ["24_6"]=>
+  string(0) ""
+  ["24_8"]=>
+  string(0) ""
+  [25]=>
+  string(0) ""
+  ["28_1"]=>
+  string(0) ""
+  ["28_2"]=>
+  string(0) ""
+  [20]=>
+  string(0) ""
+  ["19_1"]=>
+  string(0) ""
+  ["19_2"]=>
+  string(0) ""
+  ["19_3"]=>
+  string(0) ""
+  ["19_4"]=>
+  string(0) ""
+  ["19_5"]=>
+  string(0) ""
+  ["19_6"]=>
+  string(0) ""
+  ["19_7"]=>
+  string(0) ""
+  ["19_8"]=>
+  string(0) ""
+  ["19_9"]=>
+  string(0) ""
+  ["19_11"]=>
+  string(0) ""
+  ["19_12"]=>
+  string(0) ""
+  [12]=>
+  string(0) ""
+  [6]=>
+  string(0) ""
+  ["7_2"]=>
+  string(0) ""
+  ["7_4"]=>
+  string(0) ""
+  ["7_8"]=>
+  string(0) ""
+  [8]=>
+  string(0) ""
+  [10]=>
+  string(0) ""
+  [14]=>
+  string(0) ""
+}
+</pre> 
+2019-08-26 21:10:11.063580 - DEBUG --> GF_Feed_Processor::task(): Marking entry #37 as fulfilled for gravityformswebhooks 
+2019-08-26 21:19:25.686675 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #38 for gravityformswebhooks. 
+2019-08-26 21:19:25.737211 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Adding feed (#1 - WH1) for entry #38 for gravityformswebhooks to the processing queue. 
+2019-08-26 21:19:26.291438 - DEBUG --> GF_Feed_Processor::task(): Starting to process feed (#1 - WH1) for entry #38 for gravityformswebhooks. Attempt number: 1 
+2019-08-26 21:19:26.291672 - DEBUG --> GF_Webhooks::process_feed(): Sending webhook request to http://stagegreenimg.wpengine.com/wp-json/data-forms/get.php; Array
+(
+    [body] => Array
+        (
+            [id] => 38
+            [form_id] => 1
+            [post_id] => 
+            [date_created] => 2019-08-26 21:19:25
+            [date_updated] => 2019-08-26 21:19:25
+            [is_starred] => 0
+            [is_read] => 0
+            [ip] => ::1
+            [source_url] => https://gravity-forms:8890/sample-page/
+            [user_agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+            [currency] => USD
+            [payment_status] => 
+            [payment_date] => 
+            [payment_amount] => 
+            [payment_method] => 
+            [transaction_id] => 
+            [is_fulfilled] => 
+            [created_by] => 1
+            [transaction_type] => 
+            [status] => active
+            [1] => PET/CT Scan
+            [2] => Insurance
+            [11] => 24342
+            [21] => head
+            [5.2] => I'm looking for a quote.
+            [20] => sdasfdas faf wef
+            [17] => Up to 20 miles
+            [13.1] => I acknowledge that I have reviewed the <a href="http://greenimaging.net/privacy-policy/" target="_blank">Notice of Privacy Practices</a>
+            [7.3] => denis
+            [7.6] => test
+            [29] => Male
+            [9] => (635) 745-7457
+            [23] => Phone
+            [30] => 2019-08-05
+            [5.1] => 
+            [5.3] => 
+            [24.2] => 
+            [24.3] => 
+            [24.4] => 
+            [24.6] => 
+            [24.8] => 
+            [25] => 
+            [28.1] => 
+            [28.2] => 
+            [19.1] => 
+            [19.2] => 
+            [19.3] => 
+            [19.4] => 
+            [19.5] => 
+            [19.6] => 
+            [19.7] => 
+            [19.8] => 
+            [19.9] => 
+            [19.11] => 
+            [19.12] => 
+            [12] => 
+            [6] => 
+            [7.2] => 
+            [7.4] => 
+            [7.8] => 
+            [8] => 
+            [10] => 
+            [14] => 
+        )
+
+    [method] => POST
+    [headers] => Array
+        (
+        )
+
+    [sslverify] => 1
+)
+ 
+2019-08-26 21:19:26.585410 - DEBUG --> GF_Webhooks::process_feed(): Webhook successfully executed. code: 200; body: 
+array(55) {
+  ["id"]=>
+  string(2) "38"
+  ["form_id"]=>
+  string(1) "1"
+  ["date_created"]=>
+  string(19) "2019-08-26 21:19:25"
+  ["date_updated"]=>
+  string(19) "2019-08-26 21:19:25"
+  ["is_starred"]=>
+  string(1) "0"
+  ["is_read"]=>
+  string(1) "0"
+  ["ip"]=>
+  string(3) "::1"
+  ["source_url"]=>
+  string(39) "https://gravity-forms:8890/sample-page/"
+  ["user_agent"]=>
+  string(121) "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36"
+  ["currency"]=>
+  string(3) "USD"
+  ["created_by"]=>
+  string(1) "1"
+  ["status"]=>
+  string(6) "active"
+  [1]=>
+  string(11) "PET/CT Scan"
+  [2]=>
+  string(9) "Insurance"
+  [11]=>
+  string(5) "24342"
+  [21]=>
+  string(4) "head"
+  ["5_2"]=>
+  string(24) "I'm looking for a quote."
+  [20]=>
+  string(16) "sdasfdas faf wef"
+  [17]=>
+  string(14) "Up to 20 miles"
+  ["13_1"]=>
+  string(136) "I acknowledge that I have reviewed the <a href="http://greenimaging.net/privacy-policy/" target="_blank">Notice of Privacy Practices</a>"
+  ["7_3"]=>
+  string(5) "denis"
+  ["7_6"]=>
+  string(4) "test"
+  [29]=>
+  string(4) "Male"
+  [9]=>
+  string(14) "(635) 745-7457"
+  [23]=>
+  string(5) "Phone"
+  [30]=>
+  string(10) "2019-08-05"
+  ["5_1"]=>
+  string(0) ""
+  ["5_3"]=>
+  string(0) ""
+  ["24_2"]=>
+  string(0) ""
+  ["24_3"]=>
+  string(0) ""
+  ["24_4"]=>
+  string(0) ""
+  ["24_6"]=>
+  string(0) ""
+  ["24_8"]=>
+  string(0) ""
+  [25]=>
+  string(0) ""
+  ["28_1"]=>
+  string(0) ""
+  ["28_2"]=>
+  string(0) ""
+  ["19_1"]=>
+  string(0) ""
+  ["19_2"]=>
+  string(0) ""
+  ["19_3"]=>
+  string(0) ""
+  ["19_4"]=>
+  string(0) ""
+  ["19_5"]=>
+  string(0) ""
+  ["19_6"]=>
+  string(0) ""
+  ["19_7"]=>
+  string(0) ""
+  ["19_8"]=>
+  string(0) ""
+  ["19_9"]=>
+  string(0) ""
+  ["19_11"]=>
+  string(0) ""
+  ["19_12"]=>
+  string(0) ""
+  [12]=>
+  string(0) ""
+  [6]=>
+  string(0) ""
+  ["7_2"]=>
+  string(0) ""
+  ["7_4"]=>
+  string(0) ""
+  ["7_8"]=>
+  string(0) ""
+  [8]=>
+  string(0) ""
+  [10]=>
+  string(0) ""
+  [14]=>
+  string(0) ""
+}
+<pre>array(55) {
+  ["id"]=>
+  string(2) "38"
+  ["form_id"]=>
+  string(1) "1"
+  ["date_created"]=>
+  string(19) "2019-08-26 21:19:25"
+  ["date_updated"]=>
+  string(19) "2019-08-26 21:19:25"
+  ["is_starred"]=>
+  string(1) "0"
+  ["is_read"]=>
+  string(1) "0"
+  ["ip"]=>
+  string(3) "::1"
+  ["source_url"]=>
+  string(39) "https://gravity-forms:8890/sample-page/"
+  ["user_agent"]=>
+  string(121) "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36"
+  ["currency"]=>
+  string(3) "USD"
+  ["created_by"]=>
+  string(1) "1"
+  ["status"]=>
+  string(6) "active"
+  [1]=>
+  string(11) "PET/CT Scan"
+  [2]=>
+  string(9) "Insurance"
+  [11]=>
+  string(5) "24342"
+  [21]=>
+  string(4) "head"
+  ["5_2"]=>
+  string(24) "I'm looking for a quote."
+  [20]=>
+  string(16) "sdasfdas faf wef"
+  [17]=>
+  string(14) "Up to 20 miles"
+  ["13_1"]=>
+  string(136) "I acknowledge that I have reviewed the <a href="http://greenimaging.net/privacy-policy/" target="_blank">Notice of Privacy Practices</a>"
+  ["7_3"]=>
+  string(5) "denis"
+  ["7_6"]=>
+  string(4) "test"
+  [29]=>
+  string(4) "Male"
+  [9]=>
+  string(14) "(635) 745-7457"
+  [23]=>
+  string(5) "Phone"
+  [30]=>
+  string(10) "2019-08-05"
+  ["5_1"]=>
+  string(0) ""
+  ["5_3"]=>
+  string(0) ""
+  ["24_2"]=>
+  string(0) ""
+  ["24_3"]=>
+  string(0) ""
+  ["24_4"]=>
+  string(0) ""
+  ["24_6"]=>
+  string(0) ""
+  ["24_8"]=>
+  string(0) ""
+  [25]=>
+  string(0) ""
+  ["28_1"]=>
+  string(0) ""
+  ["28_2"]=>
+  string(0) ""
+  ["19_1"]=>
+  string(0) ""
+  ["19_2"]=>
+  string(0) ""
+  ["19_3"]=>
+  string(0) ""
+  ["19_4"]=>
+  string(0) ""
+  ["19_5"]=>
+  string(0) ""
+  ["19_6"]=>
+  string(0) ""
+  ["19_7"]=>
+  string(0) ""
+  ["19_8"]=>
+  string(0) ""
+  ["19_9"]=>
+  string(0) ""
+  ["19_11"]=>
+  string(0) ""
+  ["19_12"]=>
+  string(0) ""
+  [12]=>
+  string(0) ""
+  [6]=>
+  string(0) ""
+  ["7_2"]=>
+  string(0) ""
+  ["7_4"]=>
+  string(0) ""
+  ["7_8"]=>
+  string(0) ""
+  [8]=>
+  string(0) ""
+  [10]=>
+  string(0) ""
+  [14]=>
+  string(0) ""
+}
+</pre> 
+2019-08-26 21:19:26.585556 - DEBUG --> GF_Feed_Processor::task(): Marking entry #38 as fulfilled for gravityformswebhooks 
+2019-08-26 21:21:31.863698 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #39 for gravityformswebhooks. 
+2019-08-26 21:21:31.912122 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Feed is inactive, not processing feed (#1 - WH1) for entry #39. 
+2019-08-26 21:24:52.393362 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #40 for gravityformswebhooks. 
+2019-08-26 21:24:52.435210 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Feed is inactive, not processing feed (#1 - WH1) for entry #40. 
