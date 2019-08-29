@@ -2002,3 +2002,20 @@ array(4) {
 2019-08-29 13:46:00.332003 - DEBUG --> GF_Personal_Data::cron_task(): starting personal data cron task 
 2019-08-29 13:46:00.342058 - DEBUG --> GF_Personal_Data::cron_task(): done 
 2019-08-29 13:46:00.342159 - DEBUG --> GFForms::cron(): Done. 
+2019-08-29 17:37:28.532521 - DEBUG --> GF_Upgrade::set_upgrade_started(): Upgrade in process. Aborting 
+2019-08-29 17:37:28.532533 - DEBUG --> GF_Upgrade::set_upgrade_started(): Upgrade Locked. 
+2019-08-29 17:37:28.561460 - DEBUG --> GF_Upgrade::set_upgrade_started(): Upgrade in process. Aborting 
+2019-08-29 17:37:29.505227 - DEBUG --> GF_Upgrade::post_upgrade_schema(): Background upgrade not necessary. Setting new version. 
+2019-08-29 17:37:29.594228 - DEBUG --> GF_Upgrade::set_upgrade_ended(): Upgrade Completed. 
+2019-08-29 17:37:30.493422 - DEBUG --> GFForms::cron(): Starting cron. 
+2019-08-29 17:37:30.493522 - DEBUG --> GFForms::add_security_files(): Start adding security files 
+2019-08-29 17:37:30.561733 - DEBUG --> GFForms::delete_old_export_files(): Starting. 
+2019-08-29 17:37:30.561883 - DEBUG --> GFForms::delete_old_export_files():  No export root - bailing. 
+2019-08-29 17:37:30.561969 - DEBUG --> GFForms::delete_old_log_files(): Starting. 
+2019-08-29 17:37:30.562066 - DEBUG --> GFForms::delete_old_log_files(): Start deleting old log files 
+2019-08-29 17:37:30.562227 - DEBUG --> GFForms::do_self_healing(): Start self healing 
+2019-08-29 17:37:30.562521 - DEBUG --> GFForms::delete_orphaned_entries(): Starting to delete orphaned entries 
+2019-08-29 17:37:30.563543 - DEBUG --> GFForms::delete_orphaned_entries(): Delete result: 0 
+2019-08-29 17:37:30.596096 - DEBUG --> GF_Personal_Data::cron_task(): starting personal data cron task 
+2019-08-29 17:37:30.599265 - DEBUG --> GF_Personal_Data::cron_task(): done 
+2019-08-29 17:37:30.599370 - DEBUG --> GFForms::cron(): Done. 
