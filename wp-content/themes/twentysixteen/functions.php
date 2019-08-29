@@ -661,30 +661,6 @@ function post_to_third_party( $entry, $form ) {
 	
 	//$response = wp_remote_post( $endpoint_url, array( 'body' => $body ) );
 	//GFCommon::log_debug( 'gform_after_submission: response => ' . print_r( $response, true ) );
-	
-
-
-
-	/* fields
-		+ birthdate
-		address1
-		address2
-		state
-		city
-		zipCode
-	
-	*/
-	ob_flush();
-    ob_start();
-		echo '<pre>';
-        var_dump($body);
-		echo '</pre>';
-		file_put_contents( 
-			"log.html", 
-			ob_get_flush()
-		);
-
-    ob_end_flush();
 }
 
 /*
