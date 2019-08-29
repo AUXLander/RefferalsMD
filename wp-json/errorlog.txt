@@ -1,0 +1,58 @@
+* Hostname dev.getreferralmd.com was found in DNS cache
+*   Trying 34.200.23.17...
+* TCP_NODELAY set
+* Connected to dev.getreferralmd.com (34.200.23.17) port 443 (#0)
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /Applications/MAMP/Library/OpenSSL/cert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN, server did not agree to a protocol
+* Server certificate:
+*  subject: OU=Domain Control Validated; CN=*.getreferralmd.com
+*  start date: Apr  1 23:54:31 2019 GMT
+*  expire date: Apr  1 23:54:31 2021 GMT
+*  subjectAltName: host "dev.getreferralmd.com" matched cert's "*.getreferralmd.com"
+*  issuer: C=US; ST=Arizona; L=Scottsdale; O=GoDaddy.com, Inc.; OU=http://certs.godaddy.com/repository/; CN=Go Daddy Secure Certificate Authority - G2
+*  SSL certificate verify ok.
+> GET /login HTTP/1.1
+Host: dev.getreferralmd.com
+Accept: */*
+
+< HTTP/1.1 200 OK
+< set-cookie: XSRF-TOKEN=MbfjVK0y-ob3Wt8zkJVDVLjTY70kTBZG7BiI; Path=/; Secure
+< set-cookie: referralMD=s%3AbbxXpprdw06yxITSJRAsKocUzg1UzGJu.vuRwpkv0NJpcZJoHfxOZj2v51qP75qj0HJwZvoDs2PA; Path=/; Expires=Fri, 30 Aug 2019 14:47:18 GMT; HttpOnly; Secure
+< X-DNS-Prefetch-Control: off
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=22886400000; includeSubDomains; preload
+< X-Download-Options: noopen
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Content-Type: text/html
+< Vary: Accept-Encoding
+< Date: Thu, 29 Aug 2019 18:47:18 GMT
+< Connection: keep-alive
+< Transfer-Encoding: chunked
+< 
+* Connection #0 to host dev.getreferralmd.com left intact
+* Found bundle for host dev.getreferralmd.com: 0x7ffc13201e40 [can pipeline]
+* Re-using existing connection! (#0) with host dev.getreferralmd.com
+* Connected to dev.getreferralmd.com (34.200.23.17) port 443 (#0)
+> POST /v1/crm/contacts HTTP/1.1
+Host: dev.getreferralmd.com
+Accept: */*
+Content-Length: 589
+Content-Type: multipart/form-data; boundary=------------------------4aa4b67565207973
+
+< HTTP/1.1 400 Bad Request
+< Vary: X-HTTP-Method, X-HTTP-Method-Override, X-Method-Override, Accept-Encoding
+< Content-Type: application/json; charset=utf-8
+< Content-Length: 76
+< ETag: W/"4c-jxV9XngFmSCGm7NUUVms0g"
+< set-cookie: referralMD=s%3Ay-yCdsC_yp7zpex1rGx0gbKclg6_acIJ.GoC6v%2B8k7Wg4eGRE7BS1UzqiZkqEz1WDZznybx%2BIq%2FE; Path=/; Expires=Fri, 30 Aug 2019 14:47:18 GMT; HttpOnly; Secure
+< Date: Thu, 29 Aug 2019 18:47:18 GMT
+< Connection: keep-alive
+* HTTP error before end of send, stop sending
+< 
+* Closing connection 0

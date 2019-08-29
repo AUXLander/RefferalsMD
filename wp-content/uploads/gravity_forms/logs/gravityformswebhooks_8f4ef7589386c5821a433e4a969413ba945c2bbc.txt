@@ -1207,3 +1207,13 @@ array(55) {
 2019-08-26 21:21:31.912122 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Feed is inactive, not processing feed (#1 - WH1) for entry #39. 
 2019-08-26 21:24:52.393362 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #40 for gravityformswebhooks. 
 2019-08-26 21:24:52.435210 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Feed is inactive, not processing feed (#1 - WH1) for entry #40. 
+2019-08-29 19:42:22.020703 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #41 for gravityformswebhooks. 
+2019-08-29 19:42:22.111099 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Feed is inactive, not processing feed (#1 - WH1) for entry #41. 
+2019-08-29 19:44:12.246170 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #42 for gravityformswebhooks. 
+2019-08-29 19:44:12.286343 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Feed is inactive, not processing feed (#1 - WH1) for entry #42. 
+2019-08-29 20:01:59.898582 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #43 for gravityformswebhooks. 
+2019-08-29 20:01:59.939840 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Feed is inactive, not processing feed (#1 - WH1) for entry #43. 
+2019-08-29 20:12:53.883764 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #44 for gravityformswebhooks. 
+2019-08-29 20:12:53.927721 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Feed is inactive, not processing feed (#1 - WH1) for entry #44. 
+2019-08-29 20:14:18.484925 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #45 for gravityformswebhooks. 
+2019-08-29 20:14:18.525480 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Feed is inactive, not processing feed (#1 - WH1) for entry #45. 

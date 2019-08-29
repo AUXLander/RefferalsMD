@@ -578,91 +578,113 @@ add_filter( 'widget_tag_cloud_args', 'twentysixteen_widget_tag_cloud_args' );
 
 add_action( 'gform_after_submission', 'post_to_third_party', 10, 2 );
 function post_to_third_party( $entry, $form ) {
- 
+
     $endpoint_url = 'http://stagegreenimg.wpengine.com/wp-json/data-forms/get.php';
-    /*$body = array(
+    $body = array(
 		"source" 	=> "webform",
 		"type"		=> "exteranl",
-		"patient"	=> (object) [
+		"patient"	=> array(
 			"firstName" => rgar( $entry, '7.3' ),
 			"lastName"	=> rgar( $entry, '7.6' ),
 			"gender"	=> rgar( $entry, '29' ),
-			"birthdate"	=> rgar( $entry,  ),//TO DO
-			"address" 	=> (object)[
-				"address1" 	=> rgar( $entry,  ),//TO DO
-				"address2" 	=> rgar( $entry,  ),//TO DO
-				"state" 	=> rgar( $entry,  ),//TO DO
-				"city" 		=> rgar( $entry,  ),//TO DO
-				"zipCode"	=> rgar( $entry,  ) //TO DO
-			],
-			"email" 	=> rgar( $entry,  ),//TO DO
-			"phones" 	=> (object)[
-				"type" 		=> rgar( $entry,  ),//TO DO
-				"number"	=> rgar( $entry, '9')
-			]
-		],
-		"form"		=> (object)[
+			"birthdate"	=> rgar( $entry, '30' ),
+			"address" 	=> array(
+				"address1" 	=> rgar( $entry, '35.1' ),
+				"address2" 	=> rgar( $entry, '35.2' ),
+				"state" 	=> rgar( $entry, '35.4' ),
+				"city" 		=> rgar( $entry, '35.3' ),
+				"zipCode"	=> rgar( $entry, '35.5' )
+			),
+			"email" 	=> rgar( $entry, '8' ),
+			"phones" 	=> array(
+				"type" 		=> 'main',
+				"number"	=> rgar( $entry, '25')
+			)
+		),
+		"form"		=> array(
 			"questions" 			=> array(
-				(object)[
+				array(
 					"sortOrder" => 1,
 					"type" 		=> "textarea",
 					"name" 		=> "What procedure do you need?",
-					"value" 	=> rgar( $entry,  ),//TO DO
+					"value" 	=> rgar( $entry, '1' ),
 					"required" 	=> true
-				],
-				(object)[
+				),
+				array(
 					"sortOrder"	=> 2,
 					"type"		=> "text",
 					"name"		=> "How do you intend to pay?",
-					"value"		=> rgar( $entry,  ),//TO DO
+					"value"		=> rgar( $entry, '2' ),
 					"required"	=> false
-				],
-				(object)[
+				),
+				array(
 					"sortOrder"	=> 3,
 					"type"		=> "text",
 					"name"		=> "Indicate body part for the procedure*",
-					"value"		=> rgar( $entry,  ),//TO DO
+					"value"		=> rgar( $entry, '21' ),
 					"required"	=> false
-				],
-				(object)[
+				),
+				array(
 					"sortOrder"	=> 4,
 					"type"		=> "checkbox",
 					"name"		=> "Check all that apply.",
 					"optionList"=> array(
-						(object)[
+						array(
 							"title"		=> "I have a physicians order.",
-							"selected"	=> rgar( $entry,  )//TO DO
-						],
-						(object)[
+							"selected"	=> strlen(rgar( $entry, '5.1' )) > 0
+						),
+						array(
 							"title"		=> "I'm looking for a quote.",
-							"selected"	=> rgar( $entry,  )//TO DO
-						],
-						(object)[
+							"selected"	=> strlen(rgar( $entry, '5.2' )) > 0
+						),
+						array(
 							"title"		=> "I would like to schedule an appointment.",
-							"selected"	=> rgar( $entry,  )//TO DO
-						]
+							"selected"	=> strlen(rgar( $entry, '5.3' )) > 0
+						)
 					),
 					"required"	=> false
-				]
+				)
 			),
-			"patientInstructions"	=> "{{ Optional HTML content, with appointment or other instructions for the patient }}"// TO DO
-		],
+			"patientInstructions"	=> rgar( $entry, '10' )
+		),
 		//STATIC VALUES BELOW, DO NOT MODIFY
-		"from"		=> (object)[
+		"from"		=> array(
 			"self_referred" => true
-		],
-		"to"		=> (object)[
+		),
+		"to"		=> array(
             "organization" 	=> "579a407533b4eff535624311", // "Green Imaging" organization ID
             "location"		=> "5c782ea8b31de9a7633a4bb7", // "Scheduling Team" location ID
             "department"	=> "5c782ecdb31de9a7633a4c15", // "Diagnostic Radiology" department ID
             "user"			=> null
-		]
-		
+		)
 	);
 	
-	$response = wp_remote_post( $endpoint_url, array( 'body' => $body ) );
-	GFCommon::log_debug( 'gform_after_submission: response => ' . print_r( $response, true ) );
+	//$response = wp_remote_post( $endpoint_url, array( 'body' => $body ) );
+	//GFCommon::log_debug( 'gform_after_submission: response => ' . print_r( $response, true ) );
+	
+
+
+
+	/* fields
+		+ birthdate
+		address1
+		address2
+		state
+		city
+		zipCode
+	
 	*/
+	ob_flush();
+    ob_start();
+		echo '<pre>';
+        var_dump($body);
+		echo '</pre>';
+		file_put_contents( 
+			"log.html", 
+			ob_get_flush()
+		);
+
+    ob_end_flush();
 }
 
 /*
