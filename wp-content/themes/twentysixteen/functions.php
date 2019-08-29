@@ -578,11 +578,9 @@ add_filter( 'widget_tag_cloud_args', 'twentysixteen_widget_tag_cloud_args' );
 
 add_action( 'gform_after_submission', 'post_to_third_party', 10, 2 );
 function post_to_third_party( $entry, $form ) {
-
-    $endpoint_url = 'http://stagegreenimg.wpengine.com/wp-json/data-forms/get.php';
     $body = array(
 		"source" 	=> "webform",
-		"type"		=> "exteranl",
+		"type"		=> "external",
 		"patient"	=> array(
 			"firstName" => rgar( $entry, '7.3' ),
 			"lastName"	=> rgar( $entry, '7.6' ),
@@ -652,88 +650,18 @@ function post_to_third_party( $entry, $form ) {
 			"self_referred" => true
 		),
 		"to"		=> array(
-            "organization" 	=> "579a407533b4eff535624311", // "Green Imaging" organization ID
-            "location"		=> "5c782ea8b31de9a7633a4bb7", // "Scheduling Team" location ID
-            "department"	=> "5c782ecdb31de9a7633a4c15", // "Diagnostic Radiology" department ID
-            "user"			=> null
+            "organization" 	=> "579a407533b4eff535624311",
+            "location"		=> "5c782ea8b31de9a7633a4bb7",
+            "department"	=> "5c782ecdb31de9a7633a4c15",
+            "user"			=> NULL
 		)
 	);
 	
-	//$response = wp_remote_post( $endpoint_url, array( 'body' => $body ) );
-	//GFCommon::log_debug( 'gform_after_submission: response => ' . print_r( $response, true ) );
+	$params = array(
+		'baseUrl'		=> 'https://app.getreferralmd.com',
+		'endpointUrl'   => '/v1/referrals',
+		'hmacKey'       => '707b000bc175cf58cd6aefb002a9d959',
+		'hmacSecret'    => '9e02d1e0245166c3940f46888fd87807'
+	);
+	var_dump( gfrmd_post_data($params, $body) );
 }
-
-/*
-
-{
-        "source": "webform",
-        "type": "external",
-        "patient": {
-            "firstName": "{{ first name }}",
-            "lastName": "{{ last name }}",
-            "gender": "{{ M, F or any other gender description }}",
-            "birthdate": "07/15/1981",
-            "address": {
-                "address1": "{{ address line 1 }}",
-                "address2": "{{ address line 2, optional }}",
-                "state": "{{ 2 letter state code, upppercase }}",
-                "city": "{{ city name }}",
-                "zipCode": "{{ zipcode }}"
-            },
-            "email": "{{ patient email, optional }}",
-            "phones": [{
-                "type": "{{ main, cellphone, home, work }}",
-                "number": "(813) 555-5555"
-            }]
-        },
-        "form": {
-            // SAMPLE QUESTIONS PROVIDER BELOW, THE ENDPOINT ACCEPTS AN ARBITRARY NUMBER OF QUESTIONS
-            "questions": [{
-                "sortOrder": 1,
-                "type": "textarea",
-                "name": "What procedure do you need?",
-                "value": "MRI without contrast",
-                "required": true
-            }, {
-                "sortOrder": 2,
-                "type": "text",
-                "name": "How do you intend to pay?",
-                "value": "Insurance",
-                "required": false
-            }, {
-                "sortOrder": 3,
-                "type": "text",
-                "name": "Indicate body part for the procedure*",
-                "value": "head",
-                "required": false
-            }, {
-                "sortOrder": 4,
-                "type": "checkbox",
-                "name": "Check all that apply.",
-                "optionList": [{
-                    "title": "I have a physicians order.",
-                    "selected": true
-                }, {
-                    "title": "I'm looking for a quote.",
-                    "selected": false
-                }, {
-                    "title": "I would like to schedule an appointment.",
-                    "selected": true
-                }],
-                "required": false
-            }],
-            "patientInstructions": "{{ Optional HTML content, with appointment or other instructions for the patient }}"
-        },
-        // STATIC VALUES BELOW, DO NOT MODIFY
-        "from": {
-            "self_referred": true
-        },
-        "to": {
-            "organization": "579a407533b4eff535624311", // "Green Imaging" organization ID
-            "location": "5c782ea8b31de9a7633a4bb7", // "Scheduling Team" location ID
-            "department": "5c782ecdb31de9a7633a4c15", // "Diagnostic Radiology" department ID
-            "user": null
-        }
-    }
-
-*/

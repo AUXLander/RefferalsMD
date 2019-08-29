@@ -9584,3 +9584,1926 @@ Please contact this person as soon as possible.<br />
 2019-08-29 20:14:18.781980 - DEBUG --> GFFormDisplay::handle_confirmation(): Sending confirmation. 
 2019-08-29 20:14:18.782156 - DEBUG --> GFFormDisplay::handle_confirmation(): Confirmation => <div id='gf_1' class='gform_anchor' tabindex='-1'></div><div id='gform_confirmation_wrapper_1' class='gform_confirmation_wrapper '><div id='gform_confirmation_message_1' class='gform_confirmation_message_1 gform_confirmation_message'>ds</div></div> 
 2019-08-29 20:14:18.782232 - DEBUG --> GFFormDisplay::process_form(): Executing functions hooked to gform_after_submission. 
+2019-08-29 20:46:14.681271 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#1) submission. 
+2019-08-29 20:46:14.719662 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 0. 
+2019-08-29 20:46:14.721836 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? Yes. 
+2019-08-29 20:46:14.721952 - DEBUG --> GFFormDisplay::process_form(): Submission is valid. Moving forward. 
+2019-08-29 20:46:14.722071 - DEBUG --> GFFormsModel::save_entry(): Saving entry. 
+2019-08-29 20:46:14.724363 - DEBUG --> GFFormsModel::save_entry(): Entry record created in the database. ID: 46. 
+2019-08-29 20:46:14.724911 - DEBUG --> GFFormsModel::save_entry(): Saving entry fields. 
+2019-08-29 20:46:14.725110 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: What procedure do you need?(#1 - select). 
+2019-08-29 20:46:14.725264 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: How do you intend to pay?(#2 - select). 
+2019-08-29 20:46:14.725414 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Indicate body part for the procedure(#21 - text). 
+2019-08-29 20:46:14.725590 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Check all that apply.(#5.1 - checkbox). 
+2019-08-29 20:46:14.725723 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Check all that apply.(#5.2 - checkbox). 
+2019-08-29 20:46:14.725845 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Check all that apply.(#5.3 - checkbox). 
+2019-08-29 20:46:14.726053 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Would you like Green Imaging to ask your referring physician to fax your order(s) for your exam directly to us?(#28.1 - checkbox). 
+2019-08-29 20:46:14.726161 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Would you like Green Imaging to ask your referring physician to fax your order(s) for your exam directly to us?(#28.2 - checkbox). 
+2019-08-29 20:46:14.726349 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: How far are you willing to travel for a significantly better price?(#17 - select). 
+2019-08-29 20:46:14.726591 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.1 - checkbox). 
+2019-08-29 20:46:14.726696 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.2 - checkbox). 
+2019-08-29 20:46:14.726795 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.3 - checkbox). 
+2019-08-29 20:46:14.726893 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.4 - checkbox). 
+2019-08-29 20:46:14.726993 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.5 - checkbox). 
+2019-08-29 20:46:14.727088 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.6 - checkbox). 
+2019-08-29 20:46:14.727186 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.7 - checkbox). 
+2019-08-29 20:46:14.727283 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.8 - checkbox). 
+2019-08-29 20:46:14.727380 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.9 - checkbox). 
+2019-08-29 20:46:14.727477 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.11 - checkbox). 
+2019-08-29 20:46:14.727593 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.12 - checkbox). 
+2019-08-29 20:46:14.728234 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Please check the box below to indicate you have reviewed our Privacy Policy.(#13.1 - checkbox). 
+2019-08-29 20:46:14.728403 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.2 - name). 
+2019-08-29 20:46:14.728519 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.3 - name). 
+2019-08-29 20:46:14.728621 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.4 - name). 
+2019-08-29 20:46:14.728727 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.6 - name). 
+2019-08-29 20:46:14.728826 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.8 - name). 
+2019-08-29 20:46:14.728992 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Your birthdate(#30 - date). 
+2019-08-29 20:46:14.729139 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.1 - address). 
+2019-08-29 20:46:14.729244 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.2 - address). 
+2019-08-29 20:46:14.729351 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.3 - address). 
+2019-08-29 20:46:14.729454 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.4 - address). 
+2019-08-29 20:46:14.729556 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.5 - address). 
+2019-08-29 20:46:14.729656 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.6 - address). 
+2019-08-29 20:46:14.729816 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Gender(#29 - radio). 
+2019-08-29 20:46:14.729969 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Phone(#9 - phone). 
+2019-08-29 20:46:14.730115 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Email(#8 - email). 
+2019-08-29 20:46:14.730273 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Please indicate preferred method of contact(#23 - radio). 
+2019-08-29 20:46:14.730422 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Note about the procedure you need.(#10 - textarea). 
+2019-08-29 20:46:14.735667 - DEBUG --> GFFormsModel::save_entry(): Finished saving entry fields. 
+2019-08-29 20:46:14.779123 - DEBUG --> GF_Background_Process::dispatch(): Running for gf_feed_processor. 
+2019-08-29 20:46:14.779894 - DEBUG --> GF_Background_Process::dispatch(): Unable to dispatch tasks to Admin Ajax: Nothing left to process 
+2019-08-29 20:46:14.780035 - DEBUG --> GFFormsModel::create_post(): Starting. 
+2019-08-29 20:46:14.780761 - DEBUG --> GFFormsModel::create_post(): Stopping. The form doesn't have any post fields. 
+2019-08-29 20:46:14.780859 - DEBUG --> GFAPI::send_notifications(): Gathering notifications for form_submission event for entry #46. 
+2019-08-29 20:46:14.780961 - DEBUG --> GFCommon::send_notifications(): Processing notifications for form_submission event for entry #46: Array
+(
+    [0] => 58584818bf9ab
+)
+
+(only active/applicable notifications are sent) 
+2019-08-29 20:46:14.781033 - DEBUG --> GFCommon::send_notification(): Starting to process notification (#58584818bf9ab - Green Imaging Notification). 
+2019-08-29 20:46:14.785288 - DEBUG --> GFCommon::send_email(): Sending email via wp_mail(). 
+2019-08-29 20:46:14.785379 - DEBUG --> Array
+(
+    [to] => drdickerson@greenimaging.net,ngarza@greenimaging.net,aflorez@greenimaging.net,bcooper@greenimaging.net,wduban@greenimaging.net,mguthrie@greenimaging.net,lshugart@greenimaging.net,mwhitaker@greenimaging.net,lgarza@greenimaging.net,info@jeffpayne.net
+    [subject] => Appointment Request from denis test
+    [message] => <html>
+	<head>
+		<title>Appointment Request from denis test</title>
+	</head>
+	<body>
+		<a href="http://greenimaging.net/wp-content/uploads/2017/01/greenimaging-notification.png"><img class="alignnone wp-image-290 size-full" src="http://greenimaging.net/wp-content/uploads/2017/01/greenimaging-notification.png" alt="Green Imaging Notification" width="640" height="80" /></a><br />
+<br />
+Please contact this person as soon as possible.<br />
+<br />
+<table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>What procedure do you need?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">MRI without contrast</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>How do you intend to pay?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Uninsured/Self-Pay</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Indicate body part for the procedure</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">head</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Check all that apply.</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>I have a physicians order.</li><li>I'm looking for a quote.</li><li>I would like to schedule an appointment.</li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Would you like Green Imaging to ask your referring physician to fax your order(s) for your exam directly to us?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>Yes</li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>How far are you willing to travel for a significantly better price?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Up to 20 miles</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Best days and times to have the exam performed.</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>Any day or time</li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px"></td>
+	                                   </tr>
+	                                   <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Please check the box below to indicate you have reviewed our Privacy Policy.</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>I acknowledge that I have reviewed the <a href="http://greenimaging.net/privacy-policy/" target="_blank">Notice of Privacy Practices</a></li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Please provide your contact information below</td>
+	                                   </tr>
+	                                   <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">denis test</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Your birthdate</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">08/01/2019</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Address</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">ffsdf, sdfsdf<br />sdfsdf<br />232fr3, qaasd 12314124124<br />Åland Islands<br/><a href='http://maps.google.com/maps?q=ffsdf%2C+sdfsdf+sdfsdf+232fr3%2C+qaasd+12314124124+%C3%85land+Islands' target='_blank' class='map-it-link'>Map It</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Gender</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Male</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Phone</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">(063) 574-5745</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:mail@mail.com'>mail@mail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Please indicate preferred method of contact</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Phone</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Note about the procedure you need.</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">test test test test test test test test test test</font>
+		                                    </td>
+		                               </tr>
+		                               </table>
+                        </td>
+                   </tr>
+               </table>
+	</body>
+</html>
+    [headers] => Array
+        (
+            [From] => From: "Green Imaging" <info@greenimaging.net>
+            [Reply-To] => Reply-To: mail@mail.com
+            [Content-type] => Content-type: text/html; charset=UTF-8
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [abort_email] => 
+)
+ 
+2019-08-29 20:46:14.994128 - DEBUG --> GFCommon::send_email(): Result from wp_mail(): 1 
+2019-08-29 20:46:14.994254 - DEBUG --> GFCommon::send_email(): WordPress successfully passed the notification email (#58584818bf9ab - Green Imaging Notification) for entry #46 to the sending server. 
+2019-08-29 20:46:14.995748 - DEBUG --> GFFormDisplay::handle_confirmation(): Sending confirmation. 
+2019-08-29 20:46:14.996032 - DEBUG --> GFFormDisplay::handle_confirmation(): Confirmation => <div id='gf_1' class='gform_anchor' tabindex='-1'></div><div id='gform_confirmation_wrapper_1' class='gform_confirmation_wrapper '><div id='gform_confirmation_message_1' class='gform_confirmation_message_1 gform_confirmation_message'>ds</div></div> 
+2019-08-29 20:46:14.996114 - DEBUG --> GFFormDisplay::process_form(): Executing functions hooked to gform_after_submission. 
+2019-08-29 20:46:52.975621 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#1) submission. 
+2019-08-29 20:46:52.977811 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 0. 
+2019-08-29 20:46:52.979779 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? Yes. 
+2019-08-29 20:46:52.979878 - DEBUG --> GFFormDisplay::process_form(): Submission is valid. Moving forward. 
+2019-08-29 20:46:52.979993 - DEBUG --> GFFormsModel::save_entry(): Saving entry. 
+2019-08-29 20:46:52.981901 - DEBUG --> GFFormsModel::save_entry(): Entry record created in the database. ID: 47. 
+2019-08-29 20:46:52.982323 - DEBUG --> GFFormsModel::save_entry(): Saving entry fields. 
+2019-08-29 20:46:52.982517 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: What procedure do you need?(#1 - select). 
+2019-08-29 20:46:52.982671 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: How do you intend to pay?(#2 - select). 
+2019-08-29 20:46:52.982819 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Indicate body part for the procedure(#21 - text). 
+2019-08-29 20:46:52.982992 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Check all that apply.(#5.1 - checkbox). 
+2019-08-29 20:46:52.983124 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Check all that apply.(#5.2 - checkbox). 
+2019-08-29 20:46:52.983249 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Check all that apply.(#5.3 - checkbox). 
+2019-08-29 20:46:52.983457 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Would you like Green Imaging to ask your referring physician to fax your order(s) for your exam directly to us?(#28.1 - checkbox). 
+2019-08-29 20:46:52.983562 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Would you like Green Imaging to ask your referring physician to fax your order(s) for your exam directly to us?(#28.2 - checkbox). 
+2019-08-29 20:46:52.983752 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: How far are you willing to travel for a significantly better price?(#17 - select). 
+2019-08-29 20:46:52.983995 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.1 - checkbox). 
+2019-08-29 20:46:52.984101 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.2 - checkbox). 
+2019-08-29 20:46:52.984200 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.3 - checkbox). 
+2019-08-29 20:46:52.984299 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.4 - checkbox). 
+2019-08-29 20:46:52.984397 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.5 - checkbox). 
+2019-08-29 20:46:52.984498 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.6 - checkbox). 
+2019-08-29 20:46:52.984596 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.7 - checkbox). 
+2019-08-29 20:46:52.984694 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.8 - checkbox). 
+2019-08-29 20:46:52.984812 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.9 - checkbox). 
+2019-08-29 20:46:52.985003 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.11 - checkbox). 
+2019-08-29 20:46:52.985181 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.12 - checkbox). 
+2019-08-29 20:46:52.985553 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Please check the box below to indicate you have reviewed our Privacy Policy.(#13.1 - checkbox). 
+2019-08-29 20:46:52.985774 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.2 - name). 
+2019-08-29 20:46:52.985898 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.3 - name). 
+2019-08-29 20:46:52.986004 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.4 - name). 
+2019-08-29 20:46:52.986109 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.6 - name). 
+2019-08-29 20:46:52.986210 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.8 - name). 
+2019-08-29 20:46:52.986378 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Your birthdate(#30 - date). 
+2019-08-29 20:46:52.986526 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.1 - address). 
+2019-08-29 20:46:52.986634 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.2 - address). 
+2019-08-29 20:46:52.986737 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.3 - address). 
+2019-08-29 20:46:52.986840 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.4 - address). 
+2019-08-29 20:46:52.986943 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.5 - address). 
+2019-08-29 20:46:52.987046 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.6 - address). 
+2019-08-29 20:46:52.987212 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Gender(#29 - radio). 
+2019-08-29 20:46:52.987366 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Phone(#9 - phone). 
+2019-08-29 20:46:52.987514 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Email(#8 - email). 
+2019-08-29 20:46:52.987672 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Please indicate preferred method of contact(#23 - radio). 
+2019-08-29 20:46:52.987822 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Note about the procedure you need.(#10 - textarea). 
+2019-08-29 20:46:52.992558 - DEBUG --> GFFormsModel::save_entry(): Finished saving entry fields. 
+2019-08-29 20:46:52.994246 - DEBUG --> GF_Background_Process::dispatch(): Running for gf_feed_processor. 
+2019-08-29 20:46:52.994640 - DEBUG --> GF_Background_Process::dispatch(): Unable to dispatch tasks to Admin Ajax: Nothing left to process 
+2019-08-29 20:46:52.994738 - DEBUG --> GFFormsModel::create_post(): Starting. 
+2019-08-29 20:46:52.995318 - DEBUG --> GFFormsModel::create_post(): Stopping. The form doesn't have any post fields. 
+2019-08-29 20:46:52.995394 - DEBUG --> GFAPI::send_notifications(): Gathering notifications for form_submission event for entry #47. 
+2019-08-29 20:46:52.995480 - DEBUG --> GFCommon::send_notifications(): Processing notifications for form_submission event for entry #47: Array
+(
+    [0] => 58584818bf9ab
+)
+
+(only active/applicable notifications are sent) 
+2019-08-29 20:46:52.995549 - DEBUG --> GFCommon::send_notification(): Starting to process notification (#58584818bf9ab - Green Imaging Notification). 
+2019-08-29 20:46:52.999829 - DEBUG --> GFCommon::send_email(): Sending email via wp_mail(). 
+2019-08-29 20:46:52.999928 - DEBUG --> Array
+(
+    [to] => drdickerson@greenimaging.net,ngarza@greenimaging.net,aflorez@greenimaging.net,bcooper@greenimaging.net,wduban@greenimaging.net,mguthrie@greenimaging.net,lshugart@greenimaging.net,mwhitaker@greenimaging.net,lgarza@greenimaging.net,info@jeffpayne.net
+    [subject] => Appointment Request from denis test
+    [message] => <html>
+	<head>
+		<title>Appointment Request from denis test</title>
+	</head>
+	<body>
+		<a href="http://greenimaging.net/wp-content/uploads/2017/01/greenimaging-notification.png"><img class="alignnone wp-image-290 size-full" src="http://greenimaging.net/wp-content/uploads/2017/01/greenimaging-notification.png" alt="Green Imaging Notification" width="640" height="80" /></a><br />
+<br />
+Please contact this person as soon as possible.<br />
+<br />
+<table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>What procedure do you need?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">MRI without contrast</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>How do you intend to pay?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Uninsured/Self-Pay</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Indicate body part for the procedure</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">head</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Check all that apply.</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>I have a physicians order.</li><li>I'm looking for a quote.</li><li>I would like to schedule an appointment.</li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Would you like Green Imaging to ask your referring physician to fax your order(s) for your exam directly to us?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>Yes</li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>How far are you willing to travel for a significantly better price?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Up to 10 miles</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Best days and times to have the exam performed.</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>Any day or time</li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px"></td>
+	                                   </tr>
+	                                   <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Please check the box below to indicate you have reviewed our Privacy Policy.</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>I acknowledge that I have reviewed the <a href="http://greenimaging.net/privacy-policy/" target="_blank">Notice of Privacy Practices</a></li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Please provide your contact information below</td>
+	                                   </tr>
+	                                   <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">denis test</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Your birthdate</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">08/01/2019</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Address</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">ffsdf, sdfsdf<br />sdfsdf<br />232fr3, qaasd 12314124124<br />Åland Islands<br/><a href='http://maps.google.com/maps?q=ffsdf%2C+sdfsdf+sdfsdf+232fr3%2C+qaasd+12314124124+%C3%85land+Islands' target='_blank' class='map-it-link'>Map It</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Gender</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Male</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Phone</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">(063) 574-5745</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:mail@mail.com'>mail@mail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Please indicate preferred method of contact</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Phone</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Note about the procedure you need.</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">test test test test test test test test test test test test test test test test test test test test test test test test</font>
+		                                    </td>
+		                               </tr>
+		                               </table>
+                        </td>
+                   </tr>
+               </table>
+	</body>
+</html>
+    [headers] => Array
+        (
+            [From] => From: "Green Imaging" <info@greenimaging.net>
+            [Reply-To] => Reply-To: mail@mail.com
+            [Content-type] => Content-type: text/html; charset=UTF-8
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [abort_email] => 
+)
+ 
+2019-08-29 20:46:53.036034 - DEBUG --> GFCommon::send_email(): Result from wp_mail(): 1 
+2019-08-29 20:46:53.036143 - DEBUG --> GFCommon::send_email(): WordPress successfully passed the notification email (#58584818bf9ab - Green Imaging Notification) for entry #47 to the sending server. 
+2019-08-29 20:46:53.037480 - DEBUG --> GFFormDisplay::handle_confirmation(): Sending confirmation. 
+2019-08-29 20:46:53.037666 - DEBUG --> GFFormDisplay::handle_confirmation(): Confirmation => <div id='gf_1' class='gform_anchor' tabindex='-1'></div><div id='gform_confirmation_wrapper_1' class='gform_confirmation_wrapper '><div id='gform_confirmation_message_1' class='gform_confirmation_message_1 gform_confirmation_message'>ds</div></div> 
+2019-08-29 20:46:53.037740 - DEBUG --> GFFormDisplay::process_form(): Executing functions hooked to gform_after_submission. 
+2019-08-29 20:50:32.457201 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#1) submission. 
+2019-08-29 20:50:32.472657 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 0. 
+2019-08-29 20:50:32.474472 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? Yes. 
+2019-08-29 20:50:32.474570 - DEBUG --> GFFormDisplay::process_form(): Submission is valid. Moving forward. 
+2019-08-29 20:50:32.474682 - DEBUG --> GFFormsModel::save_entry(): Saving entry. 
+2019-08-29 20:50:32.476578 - DEBUG --> GFFormsModel::save_entry(): Entry record created in the database. ID: 48. 
+2019-08-29 20:50:32.477050 - DEBUG --> GFFormsModel::save_entry(): Saving entry fields. 
+2019-08-29 20:50:32.477255 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: What procedure do you need?(#1 - select). 
+2019-08-29 20:50:32.477411 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: How do you intend to pay?(#2 - select). 
+2019-08-29 20:50:32.477560 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Indicate body part for the procedure(#21 - text). 
+2019-08-29 20:50:32.477737 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Check all that apply.(#5.1 - checkbox). 
+2019-08-29 20:50:32.477868 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Check all that apply.(#5.2 - checkbox). 
+2019-08-29 20:50:32.477989 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Check all that apply.(#5.3 - checkbox). 
+2019-08-29 20:50:32.478195 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Would you like Green Imaging to ask your referring physician to fax your order(s) for your exam directly to us?(#28.1 - checkbox). 
+2019-08-29 20:50:32.478302 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Would you like Green Imaging to ask your referring physician to fax your order(s) for your exam directly to us?(#28.2 - checkbox). 
+2019-08-29 20:50:32.478492 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: How far are you willing to travel for a significantly better price?(#17 - select). 
+2019-08-29 20:50:32.478738 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.1 - checkbox). 
+2019-08-29 20:50:32.478843 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.2 - checkbox). 
+2019-08-29 20:50:32.478944 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.3 - checkbox). 
+2019-08-29 20:50:32.479043 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.4 - checkbox). 
+2019-08-29 20:50:32.479141 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.5 - checkbox). 
+2019-08-29 20:50:32.479239 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.6 - checkbox). 
+2019-08-29 20:50:32.479337 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.7 - checkbox). 
+2019-08-29 20:50:32.479435 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.8 - checkbox). 
+2019-08-29 20:50:32.479532 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.9 - checkbox). 
+2019-08-29 20:50:32.479629 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.11 - checkbox). 
+2019-08-29 20:50:32.479727 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.12 - checkbox). 
+2019-08-29 20:50:32.479983 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Please check the box below to indicate you have reviewed our Privacy Policy.(#13.1 - checkbox). 
+2019-08-29 20:50:32.480129 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.2 - name). 
+2019-08-29 20:50:32.480238 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.3 - name). 
+2019-08-29 20:50:32.480339 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.4 - name). 
+2019-08-29 20:50:32.480444 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.6 - name). 
+2019-08-29 20:50:32.480542 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.8 - name). 
+2019-08-29 20:50:32.480703 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Your birthdate(#30 - date). 
+2019-08-29 20:50:32.480848 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.1 - address). 
+2019-08-29 20:50:32.480953 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.2 - address). 
+2019-08-29 20:50:32.481056 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.3 - address). 
+2019-08-29 20:50:32.481161 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.4 - address). 
+2019-08-29 20:50:32.481264 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.5 - address). 
+2019-08-29 20:50:32.481385 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.6 - address). 
+2019-08-29 20:50:32.481544 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Gender(#29 - radio). 
+2019-08-29 20:50:32.481697 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Phone(#9 - phone). 
+2019-08-29 20:50:32.481842 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Email(#8 - email). 
+2019-08-29 20:50:32.481997 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Please indicate preferred method of contact(#23 - radio). 
+2019-08-29 20:50:32.482144 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Note about the procedure you need.(#10 - textarea). 
+2019-08-29 20:50:32.486383 - DEBUG --> GFFormsModel::save_entry(): Finished saving entry fields. 
+2019-08-29 20:50:32.528446 - DEBUG --> GF_Background_Process::dispatch(): Running for gf_feed_processor. 
+2019-08-29 20:50:32.528937 - DEBUG --> GF_Background_Process::dispatch(): Unable to dispatch tasks to Admin Ajax: Nothing left to process 
+2019-08-29 20:50:32.529042 - DEBUG --> GFFormsModel::create_post(): Starting. 
+2019-08-29 20:50:32.529638 - DEBUG --> GFFormsModel::create_post(): Stopping. The form doesn't have any post fields. 
+2019-08-29 20:50:32.529710 - DEBUG --> GFAPI::send_notifications(): Gathering notifications for form_submission event for entry #48. 
+2019-08-29 20:50:32.529797 - DEBUG --> GFCommon::send_notifications(): Processing notifications for form_submission event for entry #48: Array
+(
+    [0] => 58584818bf9ab
+)
+
+(only active/applicable notifications are sent) 
+2019-08-29 20:50:32.529865 - DEBUG --> GFCommon::send_notification(): Starting to process notification (#58584818bf9ab - Green Imaging Notification). 
+2019-08-29 20:50:32.533771 - DEBUG --> GFCommon::send_email(): Sending email via wp_mail(). 
+2019-08-29 20:50:32.533857 - DEBUG --> Array
+(
+    [to] => drdickerson@greenimaging.net,ngarza@greenimaging.net,aflorez@greenimaging.net,bcooper@greenimaging.net,wduban@greenimaging.net,mguthrie@greenimaging.net,lshugart@greenimaging.net,mwhitaker@greenimaging.net,lgarza@greenimaging.net,info@jeffpayne.net
+    [subject] => Appointment Request from denis test
+    [message] => <html>
+	<head>
+		<title>Appointment Request from denis test</title>
+	</head>
+	<body>
+		<a href="http://greenimaging.net/wp-content/uploads/2017/01/greenimaging-notification.png"><img class="alignnone wp-image-290 size-full" src="http://greenimaging.net/wp-content/uploads/2017/01/greenimaging-notification.png" alt="Green Imaging Notification" width="640" height="80" /></a><br />
+<br />
+Please contact this person as soon as possible.<br />
+<br />
+<table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>What procedure do you need?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">MRI without contrast</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>How do you intend to pay?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Uninsured/Self-Pay</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Indicate body part for the procedure</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">head</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Check all that apply.</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>I have a physicians order.</li><li>I'm looking for a quote.</li><li>I would like to schedule an appointment.</li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Would you like Green Imaging to ask your referring physician to fax your order(s) for your exam directly to us?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>Yes</li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>How far are you willing to travel for a significantly better price?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Up to 20 miles</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Best days and times to have the exam performed.</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>Any day or time</li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px"></td>
+	                                   </tr>
+	                                   <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Please check the box below to indicate you have reviewed our Privacy Policy.</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>I acknowledge that I have reviewed the <a href="http://greenimaging.net/privacy-policy/" target="_blank">Notice of Privacy Practices</a></li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Please provide your contact information below</td>
+	                                   </tr>
+	                                   <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">denis test</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Your birthdate</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">08/01/2019</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Address</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">ffsdf, sdfsdf<br />sdfsdf<br />232fr3, qaasd 12314124124<br />Åland Islands<br/><a href='http://maps.google.com/maps?q=ffsdf%2C+sdfsdf+sdfsdf+232fr3%2C+qaasd+12314124124+%C3%85land+Islands' target='_blank' class='map-it-link'>Map It</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Gender</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Male</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Phone</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">(063) 574-5745</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:mail@mail.com'>mail@mail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Please indicate preferred method of contact</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Phone</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Note about the procedure you need.</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">rwrappapp</font>
+		                                    </td>
+		                               </tr>
+		                               </table>
+                        </td>
+                   </tr>
+               </table>
+	</body>
+</html>
+    [headers] => Array
+        (
+            [From] => From: "Green Imaging" <info@greenimaging.net>
+            [Reply-To] => Reply-To: mail@mail.com
+            [Content-type] => Content-type: text/html; charset=UTF-8
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [abort_email] => 
+)
+ 
+2019-08-29 20:50:32.869677 - DEBUG --> GFCommon::send_email(): Result from wp_mail(): 1 
+2019-08-29 20:50:32.869795 - DEBUG --> GFCommon::send_email(): WordPress successfully passed the notification email (#58584818bf9ab - Green Imaging Notification) for entry #48 to the sending server. 
+2019-08-29 20:50:32.871282 - DEBUG --> GFFormDisplay::handle_confirmation(): Sending confirmation. 
+2019-08-29 20:50:32.871606 - DEBUG --> GFFormDisplay::handle_confirmation(): Confirmation => <div id='gf_1' class='gform_anchor' tabindex='-1'></div><div id='gform_confirmation_wrapper_1' class='gform_confirmation_wrapper '><div id='gform_confirmation_message_1' class='gform_confirmation_message_1 gform_confirmation_message'>ds</div></div> 
+2019-08-29 20:50:32.871783 - DEBUG --> GFFormDisplay::process_form(): Executing functions hooked to gform_after_submission. 
+2019-08-29 20:52:29.335309 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#1) submission. 
+2019-08-29 20:52:29.340447 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 0. 
+2019-08-29 20:52:29.342499 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? Yes. 
+2019-08-29 20:52:29.342602 - DEBUG --> GFFormDisplay::process_form(): Submission is valid. Moving forward. 
+2019-08-29 20:52:29.342715 - DEBUG --> GFFormsModel::save_entry(): Saving entry. 
+2019-08-29 20:52:29.345093 - DEBUG --> GFFormsModel::save_entry(): Entry record created in the database. ID: 49. 
+2019-08-29 20:52:29.345618 - DEBUG --> GFFormsModel::save_entry(): Saving entry fields. 
+2019-08-29 20:52:29.345870 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: What procedure do you need?(#1 - select). 
+2019-08-29 20:52:29.346041 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: How do you intend to pay?(#2 - select). 
+2019-08-29 20:52:29.346203 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Indicate body part for the procedure(#21 - text). 
+2019-08-29 20:52:29.346537 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Check all that apply.(#5.1 - checkbox). 
+2019-08-29 20:52:29.346781 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Check all that apply.(#5.2 - checkbox). 
+2019-08-29 20:52:29.346935 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Check all that apply.(#5.3 - checkbox). 
+2019-08-29 20:52:29.347176 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Would you like Green Imaging to ask your referring physician to fax your order(s) for your exam directly to us?(#28.1 - checkbox). 
+2019-08-29 20:52:29.347295 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Would you like Green Imaging to ask your referring physician to fax your order(s) for your exam directly to us?(#28.2 - checkbox). 
+2019-08-29 20:52:29.347510 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: How far are you willing to travel for a significantly better price?(#17 - select). 
+2019-08-29 20:52:29.347784 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.1 - checkbox). 
+2019-08-29 20:52:29.347920 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.2 - checkbox). 
+2019-08-29 20:52:29.348054 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.3 - checkbox). 
+2019-08-29 20:52:29.348182 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.4 - checkbox). 
+2019-08-29 20:52:29.348423 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.5 - checkbox). 
+2019-08-29 20:52:29.348623 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.6 - checkbox). 
+2019-08-29 20:52:29.348743 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.7 - checkbox). 
+2019-08-29 20:52:29.348845 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.8 - checkbox). 
+2019-08-29 20:52:29.348947 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.9 - checkbox). 
+2019-08-29 20:52:29.349045 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.11 - checkbox). 
+2019-08-29 20:52:29.349143 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.12 - checkbox). 
+2019-08-29 20:52:29.349782 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Please check the box below to indicate you have reviewed our Privacy Policy.(#13.1 - checkbox). 
+2019-08-29 20:52:29.349962 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.2 - name). 
+2019-08-29 20:52:29.350094 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.3 - name). 
+2019-08-29 20:52:29.350198 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.4 - name). 
+2019-08-29 20:52:29.350302 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.6 - name). 
+2019-08-29 20:52:29.350414 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.8 - name). 
+2019-08-29 20:52:29.350591 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Your birthdate(#30 - date). 
+2019-08-29 20:52:29.350941 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.1 - address). 
+2019-08-29 20:52:29.351099 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.2 - address). 
+2019-08-29 20:52:29.351219 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.3 - address). 
+2019-08-29 20:52:29.351335 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.4 - address). 
+2019-08-29 20:52:29.351448 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.5 - address). 
+2019-08-29 20:52:29.351556 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.6 - address). 
+2019-08-29 20:52:29.351744 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Gender(#29 - radio). 
+2019-08-29 20:52:29.351916 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Phone(#9 - phone). 
+2019-08-29 20:52:29.352078 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Email(#8 - email). 
+2019-08-29 20:52:29.352247 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Please indicate preferred method of contact(#23 - radio). 
+2019-08-29 20:52:29.352406 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Note about the procedure you need.(#10 - textarea). 
+2019-08-29 20:52:29.358232 - DEBUG --> GFFormsModel::save_entry(): Finished saving entry fields. 
+2019-08-29 20:52:29.401350 - DEBUG --> GF_Background_Process::dispatch(): Running for gf_feed_processor. 
+2019-08-29 20:52:29.401830 - DEBUG --> GF_Background_Process::dispatch(): Unable to dispatch tasks to Admin Ajax: Nothing left to process 
+2019-08-29 20:52:29.401940 - DEBUG --> GFFormsModel::create_post(): Starting. 
+2019-08-29 20:52:29.402556 - DEBUG --> GFFormsModel::create_post(): Stopping. The form doesn't have any post fields. 
+2019-08-29 20:52:29.402631 - DEBUG --> GFAPI::send_notifications(): Gathering notifications for form_submission event for entry #49. 
+2019-08-29 20:52:29.402731 - DEBUG --> GFCommon::send_notifications(): Processing notifications for form_submission event for entry #49: Array
+(
+    [0] => 58584818bf9ab
+)
+
+(only active/applicable notifications are sent) 
+2019-08-29 20:52:29.402802 - DEBUG --> GFCommon::send_notification(): Starting to process notification (#58584818bf9ab - Green Imaging Notification). 
+2019-08-29 20:52:29.407325 - DEBUG --> GFCommon::send_email(): Sending email via wp_mail(). 
+2019-08-29 20:52:29.407449 - DEBUG --> Array
+(
+    [to] => drdickerson@greenimaging.net,ngarza@greenimaging.net,aflorez@greenimaging.net,bcooper@greenimaging.net,wduban@greenimaging.net,mguthrie@greenimaging.net,lshugart@greenimaging.net,mwhitaker@greenimaging.net,lgarza@greenimaging.net,info@jeffpayne.net
+    [subject] => Appointment Request from denis test
+    [message] => <html>
+	<head>
+		<title>Appointment Request from denis test</title>
+	</head>
+	<body>
+		<a href="http://greenimaging.net/wp-content/uploads/2017/01/greenimaging-notification.png"><img class="alignnone wp-image-290 size-full" src="http://greenimaging.net/wp-content/uploads/2017/01/greenimaging-notification.png" alt="Green Imaging Notification" width="640" height="80" /></a><br />
+<br />
+Please contact this person as soon as possible.<br />
+<br />
+<table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>What procedure do you need?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">MRI without contrast</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>How do you intend to pay?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Uninsured/Self-Pay</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Indicate body part for the procedure</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">head</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Check all that apply.</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>I have a physicians order.</li><li>I'm looking for a quote.</li><li>I would like to schedule an appointment.</li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Would you like Green Imaging to ask your referring physician to fax your order(s) for your exam directly to us?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>Yes</li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>How far are you willing to travel for a significantly better price?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Up to 10 miles</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Best days and times to have the exam performed.</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>Any day or time</li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px"></td>
+	                                   </tr>
+	                                   <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Please check the box below to indicate you have reviewed our Privacy Policy.</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>I acknowledge that I have reviewed the <a href="http://greenimaging.net/privacy-policy/" target="_blank">Notice of Privacy Practices</a></li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Please provide your contact information below</td>
+	                                   </tr>
+	                                   <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">denis test</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Your birthdate</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">08/01/2019</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Address</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">ffsdf, sdfsdf<br />sdfsdf<br />232fr3, qaasd 12314124124<br />Åland Islands<br/><a href='http://maps.google.com/maps?q=ffsdf%2C+sdfsdf+sdfsdf+232fr3%2C+qaasd+12314124124+%C3%85land+Islands' target='_blank' class='map-it-link'>Map It</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Gender</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Male</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Phone</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">(063) 574-5745</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:mail@mail.com'>mail@mail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Please indicate preferred method of contact</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Phone</font>
+		                                    </td>
+		                               </tr>
+		                               </table>
+                        </td>
+                   </tr>
+               </table>
+	</body>
+</html>
+    [headers] => Array
+        (
+            [From] => From: "Green Imaging" <info@greenimaging.net>
+            [Reply-To] => Reply-To: mail@mail.com
+            [Content-type] => Content-type: text/html; charset=UTF-8
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [abort_email] => 
+)
+ 
+2019-08-29 20:52:29.738722 - DEBUG --> GFCommon::send_email(): Result from wp_mail(): 1 
+2019-08-29 20:52:29.738853 - DEBUG --> GFCommon::send_email(): WordPress successfully passed the notification email (#58584818bf9ab - Green Imaging Notification) for entry #49 to the sending server. 
+2019-08-29 20:52:29.740267 - DEBUG --> GFFormDisplay::handle_confirmation(): Sending confirmation. 
+2019-08-29 20:52:29.740536 - DEBUG --> GFFormDisplay::handle_confirmation(): Confirmation => <div id='gf_1' class='gform_anchor' tabindex='-1'></div><div id='gform_confirmation_wrapper_1' class='gform_confirmation_wrapper '><div id='gform_confirmation_message_1' class='gform_confirmation_message_1 gform_confirmation_message'>ds</div></div> 
+2019-08-29 20:52:29.740617 - DEBUG --> GFFormDisplay::process_form(): Executing functions hooked to gform_after_submission. 
+2019-08-29 20:55:10.521868 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#1) submission. 
+2019-08-29 20:55:10.531999 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 0. 
+2019-08-29 20:55:10.533790 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? Yes. 
+2019-08-29 20:55:10.533893 - DEBUG --> GFFormDisplay::process_form(): Submission is valid. Moving forward. 
+2019-08-29 20:55:10.534006 - DEBUG --> GFFormsModel::save_entry(): Saving entry. 
+2019-08-29 20:55:10.544919 - DEBUG --> GFFormsModel::save_entry(): Entry record created in the database. ID: 50. 
+2019-08-29 20:55:10.545553 - DEBUG --> GFFormsModel::save_entry(): Saving entry fields. 
+2019-08-29 20:55:10.545806 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: What procedure do you need?(#1 - select). 
+2019-08-29 20:55:10.545960 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: How do you intend to pay?(#2 - select). 
+2019-08-29 20:55:10.546108 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Indicate body part for the procedure(#21 - text). 
+2019-08-29 20:55:10.546288 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Check all that apply.(#5.1 - checkbox). 
+2019-08-29 20:55:10.546417 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Check all that apply.(#5.2 - checkbox). 
+2019-08-29 20:55:10.546540 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Check all that apply.(#5.3 - checkbox). 
+2019-08-29 20:55:10.546751 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Would you like Green Imaging to ask your referring physician to fax your order(s) for your exam directly to us?(#28.1 - checkbox). 
+2019-08-29 20:55:10.546857 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Would you like Green Imaging to ask your referring physician to fax your order(s) for your exam directly to us?(#28.2 - checkbox). 
+2019-08-29 20:55:10.547048 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: How far are you willing to travel for a significantly better price?(#17 - select). 
+2019-08-29 20:55:10.547296 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.1 - checkbox). 
+2019-08-29 20:55:10.547400 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.2 - checkbox). 
+2019-08-29 20:55:10.547501 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.3 - checkbox). 
+2019-08-29 20:55:10.547601 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.4 - checkbox). 
+2019-08-29 20:55:10.547700 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.5 - checkbox). 
+2019-08-29 20:55:10.547799 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.6 - checkbox). 
+2019-08-29 20:55:10.547903 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.7 - checkbox). 
+2019-08-29 20:55:10.548000 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.8 - checkbox). 
+2019-08-29 20:55:10.548098 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.9 - checkbox). 
+2019-08-29 20:55:10.548196 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.11 - checkbox). 
+2019-08-29 20:55:10.548295 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.12 - checkbox). 
+2019-08-29 20:55:10.548584 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Please check the box below to indicate you have reviewed our Privacy Policy.(#13.1 - checkbox). 
+2019-08-29 20:55:10.548734 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.2 - name). 
+2019-08-29 20:55:10.548844 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.3 - name). 
+2019-08-29 20:55:10.548943 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.4 - name). 
+2019-08-29 20:55:10.549050 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.6 - name). 
+2019-08-29 20:55:10.549150 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.8 - name). 
+2019-08-29 20:55:10.549314 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Your birthdate(#30 - date). 
+2019-08-29 20:55:10.549463 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.1 - address). 
+2019-08-29 20:55:10.549567 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.2 - address). 
+2019-08-29 20:55:10.549671 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.3 - address). 
+2019-08-29 20:55:10.549774 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.4 - address). 
+2019-08-29 20:55:10.549876 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.5 - address). 
+2019-08-29 20:55:10.549978 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.6 - address). 
+2019-08-29 20:55:10.550139 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Gender(#29 - radio). 
+2019-08-29 20:55:10.550296 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Phone(#9 - phone). 
+2019-08-29 20:55:10.550441 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Email(#8 - email). 
+2019-08-29 20:55:10.550600 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Please indicate preferred method of contact(#23 - radio). 
+2019-08-29 20:55:10.550745 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Note about the procedure you need.(#10 - textarea). 
+2019-08-29 20:55:10.592262 - DEBUG --> GFFormsModel::save_entry(): Finished saving entry fields. 
+2019-08-29 20:55:10.634731 - DEBUG --> GF_Background_Process::dispatch(): Running for gf_feed_processor. 
+2019-08-29 20:55:10.635226 - DEBUG --> GF_Background_Process::dispatch(): Unable to dispatch tasks to Admin Ajax: Nothing left to process 
+2019-08-29 20:55:10.635339 - DEBUG --> GFFormsModel::create_post(): Starting. 
+2019-08-29 20:55:10.635929 - DEBUG --> GFFormsModel::create_post(): Stopping. The form doesn't have any post fields. 
+2019-08-29 20:55:10.636003 - DEBUG --> GFAPI::send_notifications(): Gathering notifications for form_submission event for entry #50. 
+2019-08-29 20:55:10.636090 - DEBUG --> GFCommon::send_notifications(): Processing notifications for form_submission event for entry #50: Array
+(
+    [0] => 58584818bf9ab
+)
+
+(only active/applicable notifications are sent) 
+2019-08-29 20:55:10.636158 - DEBUG --> GFCommon::send_notification(): Starting to process notification (#58584818bf9ab - Green Imaging Notification). 
+2019-08-29 20:55:10.640889 - DEBUG --> GFCommon::send_email(): Sending email via wp_mail(). 
+2019-08-29 20:55:10.641001 - DEBUG --> Array
+(
+    [to] => drdickerson@greenimaging.net,ngarza@greenimaging.net,aflorez@greenimaging.net,bcooper@greenimaging.net,wduban@greenimaging.net,mguthrie@greenimaging.net,lshugart@greenimaging.net,mwhitaker@greenimaging.net,lgarza@greenimaging.net,info@jeffpayne.net
+    [subject] => Appointment Request from denis test
+    [message] => <html>
+	<head>
+		<title>Appointment Request from denis test</title>
+	</head>
+	<body>
+		<a href="http://greenimaging.net/wp-content/uploads/2017/01/greenimaging-notification.png"><img class="alignnone wp-image-290 size-full" src="http://greenimaging.net/wp-content/uploads/2017/01/greenimaging-notification.png" alt="Green Imaging Notification" width="640" height="80" /></a><br />
+<br />
+Please contact this person as soon as possible.<br />
+<br />
+<table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>What procedure do you need?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">MRI without contrast</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>How do you intend to pay?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Uninsured/Self-Pay</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Indicate body part for the procedure</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">head</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Check all that apply.</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>I have a physicians order.</li><li>I'm looking for a quote.</li><li>I would like to schedule an appointment.</li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Would you like Green Imaging to ask your referring physician to fax your order(s) for your exam directly to us?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>Yes</li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>How far are you willing to travel for a significantly better price?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Up to 10 miles</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Best days and times to have the exam performed.</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>Any day or time</li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px"></td>
+	                                   </tr>
+	                                   <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Please check the box below to indicate you have reviewed our Privacy Policy.</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>I acknowledge that I have reviewed the <a href="http://greenimaging.net/privacy-policy/" target="_blank">Notice of Privacy Practices</a></li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Please provide your contact information below</td>
+	                                   </tr>
+	                                   <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">denis test</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Your birthdate</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">08/01/2019</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Address</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">ffsdf, sdfsdf<br />sdfsdf<br />232fr3, qaasd 12314124124<br />Åland Islands<br/><a href='http://maps.google.com/maps?q=ffsdf%2C+sdfsdf+sdfsdf+232fr3%2C+qaasd+12314124124+%C3%85land+Islands' target='_blank' class='map-it-link'>Map It</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Gender</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Male</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Phone</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">(063) 574-5745</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:mail@mail.com'>mail@mail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Please indicate preferred method of contact</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Phone</font>
+		                                    </td>
+		                               </tr>
+		                               </table>
+                        </td>
+                   </tr>
+               </table>
+	</body>
+</html>
+    [headers] => Array
+        (
+            [From] => From: "Green Imaging" <info@greenimaging.net>
+            [Reply-To] => Reply-To: mail@mail.com
+            [Content-type] => Content-type: text/html; charset=UTF-8
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [abort_email] => 
+)
+ 
+2019-08-29 20:55:10.873097 - DEBUG --> GFCommon::send_email(): Result from wp_mail(): 1 
+2019-08-29 20:55:10.873209 - DEBUG --> GFCommon::send_email(): WordPress successfully passed the notification email (#58584818bf9ab - Green Imaging Notification) for entry #50 to the sending server. 
+2019-08-29 20:55:10.874624 - DEBUG --> GFFormDisplay::handle_confirmation(): Sending confirmation. 
+2019-08-29 20:55:10.874864 - DEBUG --> GFFormDisplay::handle_confirmation(): Confirmation => <div id='gf_1' class='gform_anchor' tabindex='-1'></div><div id='gform_confirmation_wrapper_1' class='gform_confirmation_wrapper '><div id='gform_confirmation_message_1' class='gform_confirmation_message_1 gform_confirmation_message'>ds</div></div> 
+2019-08-29 20:55:10.874938 - DEBUG --> GFFormDisplay::process_form(): Executing functions hooked to gform_after_submission. 
+2019-08-29 20:56:01.061770 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#1) submission. 
+2019-08-29 20:56:01.089761 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 0. 
+2019-08-29 20:56:01.091564 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? Yes. 
+2019-08-29 20:56:01.091664 - DEBUG --> GFFormDisplay::process_form(): Submission is valid. Moving forward. 
+2019-08-29 20:56:01.091773 - DEBUG --> GFFormsModel::save_entry(): Saving entry. 
+2019-08-29 20:56:01.134515 - DEBUG --> GFFormsModel::save_entry(): Entry record created in the database. ID: 51. 
+2019-08-29 20:56:01.135159 - DEBUG --> GFFormsModel::save_entry(): Saving entry fields. 
+2019-08-29 20:56:01.135420 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: What procedure do you need?(#1 - select). 
+2019-08-29 20:56:01.135616 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: How do you intend to pay?(#2 - select). 
+2019-08-29 20:56:01.135799 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Indicate body part for the procedure(#21 - text). 
+2019-08-29 20:56:01.136018 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Check all that apply.(#5.1 - checkbox). 
+2019-08-29 20:56:01.136184 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Check all that apply.(#5.2 - checkbox). 
+2019-08-29 20:56:01.136328 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Check all that apply.(#5.3 - checkbox). 
+2019-08-29 20:56:01.136576 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Would you like Green Imaging to ask your referring physician to fax your order(s) for your exam directly to us?(#28.1 - checkbox). 
+2019-08-29 20:56:01.136687 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Would you like Green Imaging to ask your referring physician to fax your order(s) for your exam directly to us?(#28.2 - checkbox). 
+2019-08-29 20:56:01.136921 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: How far are you willing to travel for a significantly better price?(#17 - select). 
+2019-08-29 20:56:01.137176 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.1 - checkbox). 
+2019-08-29 20:56:01.137305 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.2 - checkbox). 
+2019-08-29 20:56:01.137408 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.3 - checkbox). 
+2019-08-29 20:56:01.137510 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.4 - checkbox). 
+2019-08-29 20:56:01.137609 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.5 - checkbox). 
+2019-08-29 20:56:01.137706 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.6 - checkbox). 
+2019-08-29 20:56:01.137814 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.7 - checkbox). 
+2019-08-29 20:56:01.137912 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.8 - checkbox). 
+2019-08-29 20:56:01.138010 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.9 - checkbox). 
+2019-08-29 20:56:01.138107 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.11 - checkbox). 
+2019-08-29 20:56:01.138202 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.12 - checkbox). 
+2019-08-29 20:56:01.138489 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Please check the box below to indicate you have reviewed our Privacy Policy.(#13.1 - checkbox). 
+2019-08-29 20:56:01.138639 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.2 - name). 
+2019-08-29 20:56:01.138750 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.3 - name). 
+2019-08-29 20:56:01.138849 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.4 - name). 
+2019-08-29 20:56:01.138952 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.6 - name). 
+2019-08-29 20:56:01.139050 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.8 - name). 
+2019-08-29 20:56:01.139214 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Your birthdate(#30 - date). 
+2019-08-29 20:56:01.139360 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.1 - address). 
+2019-08-29 20:56:01.139467 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.2 - address). 
+2019-08-29 20:56:01.139569 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.3 - address). 
+2019-08-29 20:56:01.139673 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.4 - address). 
+2019-08-29 20:56:01.139776 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.5 - address). 
+2019-08-29 20:56:01.139879 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.6 - address). 
+2019-08-29 20:56:01.140043 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Gender(#29 - radio). 
+2019-08-29 20:56:01.140197 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Phone(#9 - phone). 
+2019-08-29 20:56:01.140342 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Email(#8 - email). 
+2019-08-29 20:56:01.140497 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Please indicate preferred method of contact(#23 - radio). 
+2019-08-29 20:56:01.140640 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Note about the procedure you need.(#10 - textarea). 
+2019-08-29 20:56:01.166820 - DEBUG --> GFFormsModel::save_entry(): Finished saving entry fields. 
+2019-08-29 20:56:01.209374 - DEBUG --> GF_Background_Process::dispatch(): Running for gf_feed_processor. 
+2019-08-29 20:56:01.210062 - DEBUG --> GF_Background_Process::dispatch(): Unable to dispatch tasks to Admin Ajax: Nothing left to process 
+2019-08-29 20:56:01.210197 - DEBUG --> GFFormsModel::create_post(): Starting. 
+2019-08-29 20:56:01.210860 - DEBUG --> GFFormsModel::create_post(): Stopping. The form doesn't have any post fields. 
+2019-08-29 20:56:01.210964 - DEBUG --> GFAPI::send_notifications(): Gathering notifications for form_submission event for entry #51. 
+2019-08-29 20:56:01.211067 - DEBUG --> GFCommon::send_notifications(): Processing notifications for form_submission event for entry #51: Array
+(
+    [0] => 58584818bf9ab
+)
+
+(only active/applicable notifications are sent) 
+2019-08-29 20:56:01.211154 - DEBUG --> GFCommon::send_notification(): Starting to process notification (#58584818bf9ab - Green Imaging Notification). 
+2019-08-29 20:56:01.215841 - DEBUG --> GFCommon::send_email(): Sending email via wp_mail(). 
+2019-08-29 20:56:01.215951 - DEBUG --> Array
+(
+    [to] => drdickerson@greenimaging.net,ngarza@greenimaging.net,aflorez@greenimaging.net,bcooper@greenimaging.net,wduban@greenimaging.net,mguthrie@greenimaging.net,lshugart@greenimaging.net,mwhitaker@greenimaging.net,lgarza@greenimaging.net,info@jeffpayne.net
+    [subject] => Appointment Request from denis test
+    [message] => <html>
+	<head>
+		<title>Appointment Request from denis test</title>
+	</head>
+	<body>
+		<a href="http://greenimaging.net/wp-content/uploads/2017/01/greenimaging-notification.png"><img class="alignnone wp-image-290 size-full" src="http://greenimaging.net/wp-content/uploads/2017/01/greenimaging-notification.png" alt="Green Imaging Notification" width="640" height="80" /></a><br />
+<br />
+Please contact this person as soon as possible.<br />
+<br />
+<table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>What procedure do you need?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">MRI without contrast</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>How do you intend to pay?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Uninsured/Self-Pay</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Indicate body part for the procedure</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">head</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Check all that apply.</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>I have a physicians order.</li><li>I'm looking for a quote.</li><li>I would like to schedule an appointment.</li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Would you like Green Imaging to ask your referring physician to fax your order(s) for your exam directly to us?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>Yes</li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>How far are you willing to travel for a significantly better price?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Up to 20 miles</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Best days and times to have the exam performed.</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>Any day or time</li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px"></td>
+	                                   </tr>
+	                                   <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Please check the box below to indicate you have reviewed our Privacy Policy.</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>I acknowledge that I have reviewed the <a href="http://greenimaging.net/privacy-policy/" target="_blank">Notice of Privacy Practices</a></li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Please provide your contact information below</td>
+	                                   </tr>
+	                                   <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">denis test</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Your birthdate</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">08/01/2019</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Address</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">ffsdf, sdfsdf<br />sdfsdf<br />232fr3, qaasd 12314124124<br />Åland Islands<br/><a href='http://maps.google.com/maps?q=ffsdf%2C+sdfsdf+sdfsdf+232fr3%2C+qaasd+12314124124+%C3%85land+Islands' target='_blank' class='map-it-link'>Map It</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Gender</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Male</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Phone</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">(063) 574-5745</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:mail@mail.com'>mail@mail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Please indicate preferred method of contact</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Phone</font>
+		                                    </td>
+		                               </tr>
+		                               </table>
+                        </td>
+                   </tr>
+               </table>
+	</body>
+</html>
+    [headers] => Array
+        (
+            [From] => From: "Green Imaging" <info@greenimaging.net>
+            [Reply-To] => Reply-To: mail@mail.com
+            [Content-type] => Content-type: text/html; charset=UTF-8
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [abort_email] => 
+)
+ 
+2019-08-29 20:56:02.106306 - DEBUG --> GFCommon::send_email(): Result from wp_mail(): 1 
+2019-08-29 20:56:02.106415 - DEBUG --> GFCommon::send_email(): WordPress successfully passed the notification email (#58584818bf9ab - Green Imaging Notification) for entry #51 to the sending server. 
+2019-08-29 20:56:02.107753 - DEBUG --> GFFormDisplay::handle_confirmation(): Sending confirmation. 
+2019-08-29 20:56:02.107942 - DEBUG --> GFFormDisplay::handle_confirmation(): Confirmation => <div id='gf_1' class='gform_anchor' tabindex='-1'></div><div id='gform_confirmation_wrapper_1' class='gform_confirmation_wrapper '><div id='gform_confirmation_message_1' class='gform_confirmation_message_1 gform_confirmation_message'>ds</div></div> 
+2019-08-29 20:56:02.108021 - DEBUG --> GFFormDisplay::process_form(): Executing functions hooked to gform_after_submission. 
+2019-08-29 21:00:15.281121 - DEBUG --> GFFormDisplay::process_form(): Starting to process form (#1) submission. 
+2019-08-29 21:00:15.293590 - DEBUG --> GFFormDisplay::process_form(): Source page number: 1. Target page number: 0. 
+2019-08-29 21:00:15.295342 - DEBUG --> GFFormDisplay::process_form(): After validation. Is submission valid? Yes. 
+2019-08-29 21:00:15.295439 - DEBUG --> GFFormDisplay::process_form(): Submission is valid. Moving forward. 
+2019-08-29 21:00:15.295548 - DEBUG --> GFFormsModel::save_entry(): Saving entry. 
+2019-08-29 21:00:15.309494 - DEBUG --> GFFormsModel::save_entry(): Entry record created in the database. ID: 52. 
+2019-08-29 21:00:15.310044 - DEBUG --> GFFormsModel::save_entry(): Saving entry fields. 
+2019-08-29 21:00:15.310292 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: What procedure do you need?(#1 - select). 
+2019-08-29 21:00:15.310446 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: How do you intend to pay?(#2 - select). 
+2019-08-29 21:00:15.310591 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Indicate body part for the procedure(#21 - text). 
+2019-08-29 21:00:15.310770 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Check all that apply.(#5.1 - checkbox). 
+2019-08-29 21:00:15.310899 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Check all that apply.(#5.2 - checkbox). 
+2019-08-29 21:00:15.311023 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Check all that apply.(#5.3 - checkbox). 
+2019-08-29 21:00:15.311233 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Would you like Green Imaging to ask your referring physician to fax your order(s) for your exam directly to us?(#28.1 - checkbox). 
+2019-08-29 21:00:15.311342 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Would you like Green Imaging to ask your referring physician to fax your order(s) for your exam directly to us?(#28.2 - checkbox). 
+2019-08-29 21:00:15.311532 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: How far are you willing to travel for a significantly better price?(#17 - select). 
+2019-08-29 21:00:15.311781 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.1 - checkbox). 
+2019-08-29 21:00:15.311887 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.2 - checkbox). 
+2019-08-29 21:00:15.311988 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.3 - checkbox). 
+2019-08-29 21:00:15.312089 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.4 - checkbox). 
+2019-08-29 21:00:15.312187 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.5 - checkbox). 
+2019-08-29 21:00:15.312284 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.6 - checkbox). 
+2019-08-29 21:00:15.312382 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.7 - checkbox). 
+2019-08-29 21:00:15.312480 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.8 - checkbox). 
+2019-08-29 21:00:15.312580 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.9 - checkbox). 
+2019-08-29 21:00:15.312678 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.11 - checkbox). 
+2019-08-29 21:00:15.312774 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Best days and times to have the exam performed.(#19.12 - checkbox). 
+2019-08-29 21:00:15.313029 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Please check the box below to indicate you have reviewed our Privacy Policy.(#13.1 - checkbox). 
+2019-08-29 21:00:15.313178 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.2 - name). 
+2019-08-29 21:00:15.313288 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.3 - name). 
+2019-08-29 21:00:15.313388 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.4 - name). 
+2019-08-29 21:00:15.313492 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.6 - name). 
+2019-08-29 21:00:15.313591 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Name(#7.8 - name). 
+2019-08-29 21:00:15.313752 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Your birthdate(#30 - date). 
+2019-08-29 21:00:15.313899 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.1 - address). 
+2019-08-29 21:00:15.314007 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.2 - address). 
+2019-08-29 21:00:15.314111 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.3 - address). 
+2019-08-29 21:00:15.314213 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.4 - address). 
+2019-08-29 21:00:15.314317 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.5 - address). 
+2019-08-29 21:00:15.314423 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Address(#35.6 - address). 
+2019-08-29 21:00:15.314583 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Gender(#29 - radio). 
+2019-08-29 21:00:15.314738 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Phone(#9 - phone). 
+2019-08-29 21:00:15.314883 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Email(#8 - email). 
+2019-08-29 21:00:15.315048 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Please indicate preferred method of contact(#23 - radio). 
+2019-08-29 21:00:15.315196 - DEBUG --> GFFormsModel::queue_save_input_value(): Queued field operation: Note about the procedure you need.(#10 - textarea). 
+2019-08-29 21:00:15.342662 - DEBUG --> GFFormsModel::save_entry(): Finished saving entry fields. 
+2019-08-29 21:00:15.384440 - DEBUG --> GF_Background_Process::dispatch(): Running for gf_feed_processor. 
+2019-08-29 21:00:15.384927 - DEBUG --> GF_Background_Process::dispatch(): Unable to dispatch tasks to Admin Ajax: Nothing left to process 
+2019-08-29 21:00:15.385035 - DEBUG --> GFFormsModel::create_post(): Starting. 
+2019-08-29 21:00:15.385627 - DEBUG --> GFFormsModel::create_post(): Stopping. The form doesn't have any post fields. 
+2019-08-29 21:00:15.385699 - DEBUG --> GFAPI::send_notifications(): Gathering notifications for form_submission event for entry #52. 
+2019-08-29 21:00:15.385785 - DEBUG --> GFCommon::send_notifications(): Processing notifications for form_submission event for entry #52: Array
+(
+    [0] => 58584818bf9ab
+)
+
+(only active/applicable notifications are sent) 
+2019-08-29 21:00:15.385854 - DEBUG --> GFCommon::send_notification(): Starting to process notification (#58584818bf9ab - Green Imaging Notification). 
+2019-08-29 21:00:15.389743 - DEBUG --> GFCommon::send_email(): Sending email via wp_mail(). 
+2019-08-29 21:00:15.389830 - DEBUG --> Array
+(
+    [to] => drdickerson@greenimaging.net,ngarza@greenimaging.net,aflorez@greenimaging.net,bcooper@greenimaging.net,wduban@greenimaging.net,mguthrie@greenimaging.net,lshugart@greenimaging.net,mwhitaker@greenimaging.net,lgarza@greenimaging.net,info@jeffpayne.net
+    [subject] => Appointment Request from denis test
+    [message] => <html>
+	<head>
+		<title>Appointment Request from denis test</title>
+	</head>
+	<body>
+		<a href="http://greenimaging.net/wp-content/uploads/2017/01/greenimaging-notification.png"><img class="alignnone wp-image-290 size-full" src="http://greenimaging.net/wp-content/uploads/2017/01/greenimaging-notification.png" alt="Green Imaging Notification" width="640" height="80" /></a><br />
+<br />
+Please contact this person as soon as possible.<br />
+<br />
+<table width="99%" border="0" cellpadding="1" cellspacing="0" bgcolor="#EAEAEA"><tr><td>
+                            <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>What procedure do you need?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">MRI without contrast</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>How do you intend to pay?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Uninsured/Self-Pay</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Indicate body part for the procedure</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">head</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Check all that apply.</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>I have a physicians order.</li><li>I'm looking for a quote.</li><li>I would like to schedule an appointment.</li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Would you like Green Imaging to ask your referring physician to fax your order(s) for your exam directly to us?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>Yes</li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>How far are you willing to travel for a significantly better price?</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Up to 10 miles</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Best days and times to have the exam performed.</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>Any day or time</li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px"></td>
+	                                   </tr>
+	                                   <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Please check the box below to indicate you have reviewed our Privacy Policy.</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><ul class='bulleted'><li>I acknowledge that I have reviewed the <a href="http://greenimaging.net/privacy-policy/" target="_blank">Notice of Privacy Practices</a></li></ul></font>
+		                                    </td>
+		                               </tr>
+		                               <tr>
+                                        	<td colspan="2" style="font-size:14px; font-weight:bold; background-color:#EEE; border-bottom:1px solid #DFDFDF; padding:7px 7px">Please provide your contact information below</td>
+	                                   </tr>
+	                                   <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Name</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">denis test</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Your birthdate</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">08/01/2019</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Address</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">ffsdf, sdfsdf<br />sdfsdf<br />232fr3, qaasd 12314124124<br />Åland Islands<br/><a href='http://maps.google.com/maps?q=ffsdf%2C+sdfsdf+sdfsdf+232fr3%2C+qaasd+12314124124+%C3%85land+Islands' target='_blank' class='map-it-link'>Map It</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Gender</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Male</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Phone</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">(063) 574-5745</font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Email</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;"><a href='mailto:mail@mail.com'>mail@mail.com</a></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#EAF2FA">
+		                                    <td colspan="2">
+		                                        <font style="font-family: sans-serif; font-size:12px;"><strong>Please indicate preferred method of contact</strong></font>
+		                                    </td>
+		                               </tr>
+		                               <tr bgcolor="#FFFFFF">
+		                                    <td width="20">&nbsp;</td>
+		                                    <td>
+		                                        <font style="font-family: sans-serif; font-size:12px;">Phone</font>
+		                                    </td>
+		                               </tr>
+		                               </table>
+                        </td>
+                   </tr>
+               </table>
+	</body>
+</html>
+    [headers] => Array
+        (
+            [From] => From: "Green Imaging" <info@greenimaging.net>
+            [Reply-To] => Reply-To: mail@mail.com
+            [Content-type] => Content-type: text/html; charset=UTF-8
+        )
+
+    [attachments] => Array
+        (
+        )
+
+    [abort_email] => 
+)
+ 
+2019-08-29 21:00:15.749978 - DEBUG --> GFCommon::send_email(): Result from wp_mail(): 1 
+2019-08-29 21:00:15.750113 - DEBUG --> GFCommon::send_email(): WordPress successfully passed the notification email (#58584818bf9ab - Green Imaging Notification) for entry #52 to the sending server. 
+2019-08-29 21:00:15.751503 - DEBUG --> GFFormDisplay::handle_confirmation(): Sending confirmation. 
+2019-08-29 21:00:15.751688 - DEBUG --> GFFormDisplay::handle_confirmation(): Confirmation => <div id='gf_1' class='gform_anchor' tabindex='-1'></div><div id='gform_confirmation_wrapper_1' class='gform_confirmation_wrapper '><div id='gform_confirmation_message_1' class='gform_confirmation_message_1 gform_confirmation_message'>ds</div></div> 
+2019-08-29 21:00:15.751765 - DEBUG --> GFFormDisplay::process_form(): Executing functions hooked to gform_after_submission. 

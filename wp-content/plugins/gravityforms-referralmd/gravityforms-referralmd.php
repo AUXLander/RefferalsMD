@@ -14,16 +14,30 @@ function gfrmd_calculateHash($secret, $method, $url, $body){
     return $computedSignature;
 }
 function gfrmd_post_data($params, $body){
-    $baseUrl = 'https://dev.getreferralmd.com';
+    /*
+        $params = array(
+            'baseUrl'       => '',
+            'endpointUrl'   => '',
+            'hmacKey'       => '',
+            'hmacSecret'    => ''
+        );
+     */
+    $baseUrl = $params['baseUrl'];
+
+    if( $baseUrl == NULL || strlen($baseUrl) < 5 ) {
+        $baseUrl = 'https://dev.getreferralmd.com';
+    }
+
     $options = array(
-        'url'   =>   $baseUrl . '/v1/crm/contact',
+        'url'     => $baseUrl . $params['endpointUrl'],
         'headers' => array(
             'X-XSRF-TOKEN'  => '',
             'API_KEY'       => $params['hmacKey'],
             'API_SIGNATURE' => '',
         )
     );
-    $payload = gfrmd_calculateHash( $params['hmacSecret'], 'POST', '/v1/crm/contact', json_encode($body) );
+
+    $payload = gfrmd_calculateHash( $params['hmacSecret'], 'POST', $params['endpointUrl'], json_encode($body) );
     $options['headers']['API_SIGNATURE'] = $payload;
 
     $response = wp_remote_post(
@@ -34,21 +48,22 @@ function gfrmd_post_data($params, $body){
             'body' => $body,
         )
     );
-    if ( is_wp_error( $response ) ) {
+    if (is_wp_error($response)) {
        $error_message = $response->get_error_message();
        echo "Something went wrong: $error_message";
-       return $response;
-    } 
-    else {
-       return $response;
     }
+    return $response['body'];
 }
+
+
 
 add_action('wp_footer','gfrmd_test_connection');
 function gfrmd_test_connection() {
+    
     if(is_front_page() || is_home()) {
         echo '<pre>';
             $params = array(
+                'endpointUrl'   => '/v1/crm/contact',
                 'hmacKey'       => '707b000bc175cf58cd6aefb002a9d959',
                 'hmacSecret'    => '9e02d1e0245166c3940f46888fd87807'
             );
@@ -59,7 +74,8 @@ function gfrmd_test_connection() {
                 'contact_type'  => 'contact_type',
                 'contact_role'  => 'contact_role'
             );
-            gfrmd_post_data($params, $body);
+            print_r(gfrmd_post_data($params, $body));
         echo '</pre>';
     }
+    
 }
