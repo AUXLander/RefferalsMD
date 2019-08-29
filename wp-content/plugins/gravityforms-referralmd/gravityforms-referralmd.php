@@ -52,7 +52,7 @@ function gfrmd_post_data($params, $body){
        $error_message = $response->get_error_message();
        echo "Something went wrong: $error_message";
     }
-    return $response['body'];
+    return $response;
 }
 
 
@@ -61,18 +61,15 @@ add_action('wp_footer','gfrmd_test_connection');
 function gfrmd_test_connection() {
     
     if(is_front_page() || is_home()) {
-        echo '<pre>';
+        echo '<pre style="color:white">';
             $params = array(
-                'endpointUrl'   => '/v1/crm/contact',
+                'endpointUrl'   => '/v1/profile/me/invitations',
                 'hmacKey'       => '707b000bc175cf58cd6aefb002a9d959',
                 'hmacSecret'    => '9e02d1e0245166c3940f46888fd87807'
             );
             $body = array(
-                'firstName'     => 'firstName',
-                'lastName'      => 'lastName',
-                'jobTitle'      => 'jobTitle',
-                'contact_type'  => 'contact_type',
-                'contact_role'  => 'contact_role'
+                'emails'    => array("auxlander.1000@gmail.com"),
+                'message'   => "Test"
             );
             print_r(gfrmd_post_data($params, $body));
         echo '</pre>';

@@ -576,27 +576,70 @@ add_filter( 'widget_tag_cloud_args', 'twentysixteen_widget_tag_cloud_args' );
 
 
 
+
+function __error($errcode = -1){
+    switch($errcode){
+        case 0:
+            return 'Field\'s length should be longer';
+        case 1:
+            return 'Wrong format';
+        default:
+            return 'Untraking problem';
+    }
+}
+
 add_action( 'gform_after_submission', 'post_to_third_party', 10, 2 );
 function post_to_third_party( $entry, $form ) {
+	$fname = trim(rgar($entry,'7.3'));
+	$lname = trim(rgar($entry,'7.6'));
+	$gende = trim(rgar($entry,'29'));
+	$birth = trim(rgar($entry,'30'));
+	$addr1 = trim(rgar($entry,'35.1'));
+	$addr2 = trim(rgar($entry,'35.2'));
+	$state = trim(rgar($entry,'35.4'));
+	$city_ = trim(rgar($entry,'35.3'));
+	$zipco = trim(rgar($entry,'35.5'));
+	$email = trim(rgar($entry,'8'));
+	$phone = trim(rgar( $entry,'25'));
+	$quest = array(
+		trim(rgar($entry,'1')),
+		trim(rgar($entry,'2')),
+		trim(rgar($entry,'21'))
+	);
+	$optio = array(
+		(strlen(trim(rgar($entry,'5.1'))) > 0),
+		(strlen(trim(rgar($entry,'5.2'))) > 0),
+		(strlen(trim(rgar($entry,'5.3'))) > 0)
+	);
+	$instr = trim(rgar($entry, '10'));
+
+	if( strlen($fname) < 3  ||
+        strlen($lname) < 3  || 
+        strlen($phone) < 3	||
+        strlen($gende) < 3	||
+        strlen($birth) < 3 	){
+            die(__error(0));
+    }
+
     $body = array(
 		"source" 	=> "webform",
 		"type"		=> "external",
 		"patient"	=> array(
-			"firstName" => rgar( $entry, '7.3' ),
-			"lastName"	=> rgar( $entry, '7.6' ),
-			"gender"	=> rgar( $entry, '29' ),
-			"birthdate"	=> rgar( $entry, '30' ),
+			"firstName" => $fname,
+			"lastName"	=> $lname,
+			"gender"	=> $gende,
+			"birthdate"	=> $birth,
 			"address" 	=> array(
-				"address1" 	=> rgar( $entry, '35.1' ),
-				"address2" 	=> rgar( $entry, '35.2' ),
-				"state" 	=> rgar( $entry, '35.4' ),
-				"city" 		=> rgar( $entry, '35.3' ),
-				"zipCode"	=> rgar( $entry, '35.5' )
+				"address1" 	=> $addr1,
+				"address2" 	=> $addr2,
+				"state" 	=> $state,
+				"city" 		=> $city_,
+				"zipCode"	=> $zipco
 			),
-			"email" 	=> rgar( $entry, '8' ),
+			"email" 	=> $email,
 			"phones" 	=> array(
 				"type" 		=> 'main',
-				"number"	=> rgar( $entry, '25')
+				"number"	=> $phone
 			)
 		),
 		"form"		=> array(
@@ -605,21 +648,21 @@ function post_to_third_party( $entry, $form ) {
 					"sortOrder" => 1,
 					"type" 		=> "textarea",
 					"name" 		=> "What procedure do you need?",
-					"value" 	=> rgar( $entry, '1' ),
+					"value" 	=> $quest[0],
 					"required" 	=> true
 				),
 				array(
 					"sortOrder"	=> 2,
 					"type"		=> "text",
 					"name"		=> "How do you intend to pay?",
-					"value"		=> rgar( $entry, '2' ),
+					"value"		=> $quest[1],
 					"required"	=> false
 				),
 				array(
 					"sortOrder"	=> 3,
 					"type"		=> "text",
 					"name"		=> "Indicate body part for the procedure*",
-					"value"		=> rgar( $entry, '21' ),
+					"value"		=> $quest[2],
 					"required"	=> false
 				),
 				array(
@@ -629,21 +672,21 @@ function post_to_third_party( $entry, $form ) {
 					"optionList"=> array(
 						array(
 							"title"		=> "I have a physicians order.",
-							"selected"	=> strlen(rgar( $entry, '5.1' )) > 0
+							"selected"	=> $optio[0]
 						),
 						array(
 							"title"		=> "I'm looking for a quote.",
-							"selected"	=> strlen(rgar( $entry, '5.2' )) > 0
+							"selected"	=> $optio[1]
 						),
 						array(
 							"title"		=> "I would like to schedule an appointment.",
-							"selected"	=> strlen(rgar( $entry, '5.3' )) > 0
+							"selected"	=> $optio[2]
 						)
 					),
 					"required"	=> false
 				)
 			),
-			"patientInstructions"	=> rgar( $entry, '10' )
+			"patientInstructions"	=> $instr
 		),
 		//STATIC VALUES BELOW, DO NOT MODIFY
 		"from"		=> array(
@@ -656,9 +699,11 @@ function post_to_third_party( $entry, $form ) {
             "user"			=> NULL
 		)
 	);
-	
+	//http://stagegreenimg.wpengine.com/wp-json/data-forms/get.php
 	$params = array(
 		'baseUrl'		=> 'https://app.getreferralmd.com',
+		//'baseUrl'		=> 'http://stagegreenimg.wpengine.com',
+		//'endpointUrl'	=> '/wp-json/data-forms/get.php',
 		'endpointUrl'   => '/v1/referrals',
 		'hmacKey'       => '707b000bc175cf58cd6aefb002a9d959',
 		'hmacSecret'    => '9e02d1e0245166c3940f46888fd87807'
